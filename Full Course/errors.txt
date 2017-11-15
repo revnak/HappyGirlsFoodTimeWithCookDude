@@ -1,0 +1,1647 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 81: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 82: expected statement.
+    What! Huh, no!
+        ^
+
+File "game/script.rpy", line 84: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 85: expected statement.
+    AND I DON’T WANT TO KILL MYSELF, YOU DISRESPECTFUL LITTLE PIECE OF--
+                                   ^
+
+File "game/script.rpy", line 87: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 88: expected statement.
+    … i fucking hate it when people start yelling… 
+                                                   ^
+
+File "game/script.rpy", line 90: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 91: expected statement.
+    --AND FURTHERMORE, YOU’RE ALWAYS SITTING THERE WITH THIS SMUG AS F--
+                     ^
+
+File "game/script.rpy", line 93: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 94: expected statement.
+    … I just shouldn’t have come to work today, i don’t have to listen to this… i can’t… 
+                                              ^
+
+File "game/script.rpy", line 96: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 97: expected statement.
+    --JUST BECAUSE YOUR PARENTS OWN THE PLACE DOESN’T MEAN YOU CAN GO AROUND SAYING WHATEVER YOU--
+                                                                                                  ^
+
+File "game/script.rpy", line 99: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 100: expected statement.
+    … i can’t… it’s just so loud… i can’t just leave, but if i leave he’ll just yell more… 
+                                                    ^
+
+File "game/script.rpy", line 102: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 103: expected statement.
+    -WHY ARE YOU JUST STARING, SAY SOME-
+                             ^
+
+File "game/script.rpy", line 105: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 106: expected statement.
+    … my arms feel like they’re noodles. why is my chest feels like a pressure cooker. I just want to leave… 
+                                       ^
+
+File "game/script.rpy", line 108: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 109: expected statement.
+    -ARE YOU EVEN LISTE-
+                        ^
+
+File "game/script.rpy", line 111: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 112: expected statement.
+    … i just… 
+              ^
+
+File "game/script.rpy", line 114: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 115: expected statement.
+    -JULIE, GET BACK TO THE FRONT ALREADY, THERE ARE CUSTOMERS WAITING!-
+          ^
+
+File "game/script.rpy", line 117: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 118: expected statement.
+    … leave...
+           ^
+
+File "game/script.rpy", line 120: expected statement.
+    JULIE:
+         ^
+
+File "game/script.rpy", line 121: expected statement.
+    Quit yelling, the customers will hear you! What was that about being professio--
+                ^
+
+File "game/script.rpy", line 123: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 124: expected statement.
+    I just want to leave.
+                        ^
+
+File "game/script.rpy", line 126: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 127: expected statement.
+    Let me leave
+                ^
+
+File "game/script.rpy", line 129: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 130: expected statement.
+    letmeleaveletmeleaveLETMELEAVELETMELEA-
+                                           ^
+
+File "game/script.rpy", line 132: expected statement.
+    [ROB turns into food sprite, with playful pop sound]
+                                                        ^
+
+File "game/script.rpy", line 134: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 135: expected statement.
+    Why does this always make me feel better? What was I doing? Oh, right. I have to go talk to dad.
+                                            ^
+
+File "game/script.rpy", line 137: expected statement.
+    ROB:
+       ^
+
+File "game/script.rpy", line 138: expected statement.
+    -F YOU AREN’T GOING TO LISTEN TO ME THEN GO TALK TO-
+                                                        ^
+
+File "game/script.rpy", line 140: expected statement.
+    [Hastened footsteps echo off the floor]
+                                           ^
+
+File "game/script.rpy", line 142: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 143: expected statement.
+    Gonna talk to day be right back!
+                                   ^
+
+File "game/script.rpy", line 145: expected statement.
+    [Swinging door]
+                   ^
+
+File "game/script.rpy", line 146: expected statement.
+    :FADE OUT
+    ^
+
+File "game/script.rpy", line 148: expected statement.
+    2
+     ^
+
+File "game/script.rpy", line 150: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 151: expected statement.
+    Julie and Rob seem to think that I don’t like them, but really I can’t say I give them good reason to think that.
+                                                      ^
+
+File "game/script.rpy", line 153: expected statement.
+    MORGAN(V.O.): 
+                ^
+
+File "game/script.rpy", line 154: expected statement.
+    Rob is a stern, to-the-point older guy with a lot of life experience. I couldn’t ask for a better host. The guy even taught me how to tie my tie when I started working here. 
+                  ^
+
+File "game/script.rpy", line 156: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 157: expected statement.
+    And Julie? I mean she IS my little sister. Even though she’s a little gremlin I still love her. 
+             ^
+
+File "game/script.rpy", line 159: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 160: expected statement.
+    I remember when we were growing up she would always make me cook for her because she was so afraid of burning herself. 
+                                                                                                                         ^
+
+File "game/script.rpy", line 162: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 163: expected statement.
+    She always has been afraid of fire. She won’t even come into the kitchen when I’m cooking. 
+                                      ^
+
+File "game/script.rpy", line 165: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 166: expected statement.
+    Then she went and started cooking for herself. “I’m an adult, I can do it myself!”... yeah, sure thing Iron Chef Julie.  
+                                                 ^
+
+File "game/script.rpy", line 168: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 169: expected statement.
+    ... I just hope they both know how much they mean to me.
+    ^
+
+File "game/script.rpy", line 171: expected statement.
+    DAD:
+       ^
+
+File "game/script.rpy", line 172: expected statement.
+    Heya peaches, about time you got out here. I was beginning to think you finally got the courage to start flirting with a customer on the way out.
+                ^
+
+File "game/script.rpy", line 174: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 175: expected statement.
+    You know I hate it when you call me that. 
+                                ^
+
+File "game/script.rpy", line 177: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 178: expected statement.
+    And, if I ever DID manage to talk to a cute customer here, Julie would just scare them away. 
+       ^
+
+File "game/script.rpy", line 180: expected statement.
+    DAD:
+       ^
+
+File "game/script.rpy", line 181: expected statement.
+    Sure. Julie. She’d be the problem. Ha! Anyway, I didn’t call you out here just to beat a dead horse.
+                                     ^
+
+File "game/script.rpy", line 183: expected statement.
+    MORGAN(V.O.):
+                ^
+
+File "game/script.rpy", line 184: expected statement.
+    God I hope not, he knows I’ve never had a girlfriend. I mean, how do I even begin to talk to a gir-
+                  ^
+
+File "game/script.rpy", line 186: expected statement.
+    DAD: 
+       ^
+
+File "game/script.rpy", line 187: expected statement.
+    Hey, focus. It’s almost Fall. Have you given what your mother and I talk to you about any thought? 
+       ^
+
+File "game/script.rpy", line 189: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 190: expected statement.
+    ...
+    ^
+
+File "game/script.rpy", line 192: expected statement.
+    DAD:
+       ^
+
+File "game/script.rpy", line 193: expected statement.
+    It’s about time you went to college. You’ve been out of highschool for three years now, and your mother and I can’t keep paying for you forever. 
+                                       ^
+
+File "game/script.rpy", line 195: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 196: expected statement.
+    I know that, but...
+               ^
+
+File "game/script.rpy", line 198: expected statement.
+    Do I want to go back to school this Fall? (Α-FLAG)
+                                            ^
+
+File "game/script.rpy", line 199: expected statement.
+    Δ1: YES
+      ^
+
+File "game/script.rpy", line 200: expected statement.
+    Δ2: NO
+      ^
+
+File "game/script.rpy", line 203: expected statement.
+    Δ1: A-FLAG POSITIVE
+      ^
+
+File "game/script.rpy", line 204: expected statement.
+    Δ2: A-FLAG NEGATIVE
+      ^
+
+File "game/script.rpy", line 205: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 206: expected statement.
+    ... You know what, fine. I guess I can’t keep working in this place forever anyways.
+    ^
+
+File "game/script.rpy", line 208: expected statement.
+    DAD: 
+       ^
+
+File "game/script.rpy", line 209: expected statement.
+(Perhaps you left out a ' at the end of the first line.)
+    Good to hear! You're finally taking your future into your own hands. You need to set a good example for Julie. 
+                ^
+    
+    DAD:
+    Oh, and about the rent, I almost forgot to tell you--
+    MORGAN:
+    But why can’t you guys just hire me as a full time cook here? I already know all of your recipes.
+    
+    DAD:
+    That’s not going to happen, Morgan. You are a man and it’s about time stood on your own two feet. You ARE going to start college this fall. 
+    
+    And about rent--
+    
+    [Swinging door, JULIE enters frame]
+    
+    JULIE: 
+    Morgan, we need you back inside, we have a customer asking for you. 
+    
+    DAD:
+    Go on, we will finish talking after we close.
+    
+    MORGAN(V.O.):
+    Why would a customer want to talk to me, I just cook here…
+    
+    [Footsteps, swinging door]
+    :FADE OUT
+    
+    3 NIKOLAUS INTRO
+    
+    
+    Julie: 
+    Hey, there’s this weird guy out there asking for a meatball menu? What should I tell him?
+    
+    MC: 
+    That we don’t have one, this is a family style restaurant.
+    
+    Julie: 
+    Well, he did say something about pickled herring?
+    
+    MORGAN: 
+    Tell him this is a good family restaurant.
+    
+    Julie: 
+    Ok, well the guy’s a bit excitable and I don’t-
+    
+    [door slams open]
+    
+    NICK: 
+    I DEMAND TO SEE THE CHEF.
+    
+    MORGAN: 
+    I think he’s out back on a smoke break, big metal door, can’t miss it.
+    
+    NIKOLAS: 
+    Thank you sir.
+    
+    Julie: 
+    We have a back door?
+    
+    MORGAN: 
+    There’s a door-
+    
+    NICKOLAUS: 
+    [muffled yelling] WHY IS THIS ROOM SO COLD?!? 
+    
+    MC: 
+    -it’s to the refrigerator. But it is a door and it is in the back.
+    
+    NIKOLAUS: 
+    What is meaning of this!
+    
+    MORGAN: 
+    Kinda. I mean, the other guy is handling smoked fish back there. I’ve done worse.
+    
+    NIKOLAUS: 
+    He said you were the chef!
+    
+    MORGAN: 
+    I am, so is he. We are both the chef, chefs. Sometimes there is more than one person that can satisfy the role. For example, Julie is not the only pain in my ass today.
+    
+    NIKOLAUS: 
+    Why is there no authentic German cuisine on your menu!
+    
+    MORGAN: 
+    Because this is primarily an american family style restaurant.
+    
+    NIKOLAUS: 
+    Then why not have authentic German-
+    
+    MORGAN: 
+    Because this is a good family style restaurant.
+    
+    NIKOLAUS: 
+    You didn’t even let me finish!
+    
+    MORGAN: 
+    Because it was going to be awful. 
+    
+    NIKOLAUS: 
+    HOW DARE YOU INSULT MY PROUD AND MAGNIFICENT CULTURE!?! YOU BACKWARDS AMERICANS THINK YOU KNOW EVERYTHING DON’T YOU!?!
+    
+    MORGAN (V.O.): 
+    Why are we arguing about this, why can’t this guy just get that we don’t do food from germany it's not that hard to understand.
+
+File "game/script.rpy", line 312: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 313: expected statement.
+    I think I know how to make good food without grinding it into a flavourless paste. Or do you think I have something already pickled, we don’t!
+                                                                                     ^
+
+File "game/script.rpy", line 315: expected statement.
+    NIKAUS: 
+          ^
+
+File "game/script.rpy", line 316: expected statement.
+    Meatballs are not flavourless and not paste, they are a moist and bouncy! Also you can buy it can-
+                                               ^
+
+File "game/script.rpy", line 318: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 319: expected statement.
+    This is a GOOD family restaurant!
+                                    ^
+
+File "game/script.rpy", line 321: expected statement.
+    MORGAN (V.O.):
+                 ^
+
+File "game/script.rpy", line 322: expected statement.
+    Now he got me yelling. why is he still here, we don’t have what he fucking wants! I don’t want to deal with this right now. 
+                         ^
+
+File "game/script.rpy", line 324: expected statement.
+    MORGAN (V.O.):
+                 ^
+
+File "game/script.rpy", line 325: expected statement.
+    I don’t know why this has to happen right after that stuff with dad, is this some kind of test. 
+                                                                       ^
+
+File "game/script.rpy", line 327: expected statement.
+    NIKOLAUS:
+            ^
+
+File "game/script.rpy", line 328: expected statement.
+    All the more reason to have it!
+                                  ^
+
+File "game/script.rpy", line 330: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 331: end of line expected.
+(Perhaps you left out a ' at the end of the first line.)
+    No it's not meathead.
+    
+    Morgan (V.O.)
+    He is a meathead, a stubborn meathead!
+    
+    ...
+    
+    [pops into sausage sprite]
+    
+    MORGAN (V.O.)
+    Ha... Yeah. 
+    
+    MORGAN (V.O.)
+    I should stop doing this, but it’s easier than dealing with this fucking meathead!
+    
+    Rob: 
+    What the hell is going on now?
+    
+    MORGAN: 
+    Oh Rob, this poor German youth is ranting about his struggle with the concept of decent seafood to me. Sounds like a best seller. Revolutionary even. At least for the German people.
+    
+    NIKOLAUS: 
+    Sir, this “chef” is insulting the proud traditional cooking of my great people, and I will not stand for it!
+    
+    Rob: 
+    Julie?
+    
+    Julie: 
+    The german one’s crazy and Morgan is being an asshole.
+    
+    Rob: 
+    Typical. Morgan I don’t know how better to say this, JUST MAKE DAMN THE FOOD!
+    
+    MORGAN (V.O.):
+    I don’t want Rob to start yelling again. It always gets easier to get him going after he’s started.
+    
+    MORGAN:
+    Fine, Fine I’ll make the paste-food!
+    
+    [INSERT FUCKING COOKING GAME]
+    
+    
+    A-1 Groundbeef (+)
+    B-1 groundfish (+)
+    A-2 parsley (+) 
+    B-2 spinach (-)
+    A-3 breadcrumbs (+)
+    B-3 crackers (-)
+    A-4 eggs (+)
+    B-4 potato (-)
+    A-5 Lemon (+ if a-1)
+    B-5 dill (+ if b-1)
+    A-5 butter sauce (+ if a-1)
+    B-5 Green sauce(- if b-1)
+    
+    
+    NIKOLAUS (+):
+    OH MY THIS IS WUNDERBAR! 
+    
+    NIKOLAUS (-):
+    OH MY, I see what you mean, well maybe we have something back home you don’t have in your kitchen!
+    
+    
+    
+    MORGAN (V.O.):
+    I think I’ll just gonna be going now jobs done.
+    
+    NIKOLAUS:
+    Wait where are you going chef? I haven’t properly thanked you!
+    
+    MORGAN:
+    No that’s fine just doing my job really.
+    
+    *HUG*
+    
+    MORGAN (V.O.):
+    Grip tight. Oxygen. Need oxygen.
+    
+    MORGAN:
+    I CAN’T BREATHE!
+    
+    NIKOLAUS:
+    Well i’m very sorry sometimes I don’t realize my own strength but I am very grateful that you went out of your way to make specialty meal for me! [sparkles if we have them]
+    
+    [nick sprite]
+    
+    MORGAN:
+    Yeah meathead it was no problem, my boss was gonna get angry at me and I would really enjoy working here, but that might end soon I don’t know.
+    4
+    
+    MORGAN: 
+    Ugh!
+    
+    NIKOLAUS: 
+    I am very sorry, is there any way I could help?
+    
+    MORGAN: 
+    I don’t know, do you have an apartment that doesn’t cost an arm and a leg?
+    
+    NIKOLAUS: 
+    Well, yes. Yes I do. I’ve been looking for a roommate, but everyone keeps turning me down. It’s for an apartment designated for international students, so it’s actually rather inexpensive.
+    
+    MORGAN: 
+    That was rhetorical. I mean, I appreciate it, but I don’t think it will be enough.
+    
+    NIKOLAUS: 
+    Also you can work somewhere else? You sure seem to be a very good cook. The first two plates I had were delicious, though I would have preferred some more proud traditional-
+    
+    MORGAN: 
+    You ate two plates? You ate two whole plates of food and then came into the back complain to both chefs about the menu?
+    
+    NIKOLAUS: 
+    Food was very good. A bit light for my tastes, but very good!
+    
+    MORGAN: 
+    Well, that’s not enough I guess. I’m too ignorant of cooking terms, at least that’s what my mom told me she’s going to throw her own child out to fend for himself.
+    
+    NIKOLAUS: 
+    What kind of mother would do such a thing?
+    
+    MORGAN: 
+    Exactly what I’ve been thinking! And all because I don’t know what a spatula is!
+    
+    NIKOLAUS: 
+    Spatula?
+    
+    MORGAN: 
+    Exactly! Who knows what a spatula is.
+    
+    NICK: 
+    No, I’m sorry, I think you misunderstand, I was surprised you did not know. It is a very simple thing.
+    
+    MORGAN: 
+    Oh. Well, the short of it is that in a few weeks I’ll be out of my house and might be out of a job to start college.
+    
+    NICK: 
+    OH is that what it is, you can probably do both! And move in with me! University has many courses of study. I think there is a cooking school. You could learn what a spatula is, or other things too!
+    
+    MC: You know, that sounds like a plan. What’s your name?
+    
+    NICK: 
+    NICHOLAS. And you?
+    
+    MORGAN: 
+    Morgan. I think this may be a great opportunity for me. I’m not much of a school guy, but maybe this could work out. My dad always talked about how much he enjoyed cooking school. 
+    
+    NICK: 
+    Your father also cooks?
+    
+    MORGAN: 
+    Yeah.
+    
+    NICK: 
+    Hmm, so he must know what a spatula is then. Your mother has not kicked him out yet.
+    
+    MORGAN: 
+    Yeah totally... *cough*
+    
+    5 ARIA INTRO? Also new job
+    MORGAN (V.O.): 
+    Well, today could have gone better. Definitely better, this is just so many dishes how do we have so many dishes! I’m not sure if it could have gone worse. I mean, even if something bizarre had happened, like if I lost my pants or something, I would have just left at that point. 
+    
+    Δ1: Being put on dishwasher duty kinda sucks but only working so many hours will leave time for class work. At least, that’s what dad has been telling me. Didn’t think he ever had to start as a dishwasher, he’s such a good cook.
+    
+    Δ2: Ugh this is so fucking stupid. There is no way that did was a dishwasher, ever. Bullshit. Now I’m stuck getting all gross and pruney hands. 
+    
+    
+    Julie: 
+    Morgan, stop daydreaming and hurry up with those dishes already, you’re getting behind.
+    
+    MORGAN: 
+    Hey, I just got most of these alright.
+    
+    Julie: 
+    Well I’ve got two big reservations leaving soon so after you get all of their dishes done I’m going to need your help moving tables around for Karaoke night.
+    
+    MORGAN: 
+    Fine.
+    
+    MORGAN (V.O.): 
+    Work... is work I guess. I just don’t feel like it’s worth the effort really. But I need the money. Even if I have to be put to work part time as a dishwasher.
+    
+    MORGAN (V.O.)
+    And I’m gonna have to move again, ugh. I moving is always the worst, you leave all memories and everything familiar, but I just can’t stay, so yeah...
+    
+    [ding noise]
+    
+    ...the dishes are done. Well, I guess I should get to moving those tables around.
+    
+    [transition to muffled voices, maybe some pop-y sounding music in the background]
+    
+    MORGAN:
+    Ok got the tables moved for you, I’ll be back to 
+    
+    ARIA:
+    [music notes]-Maked room wif me is to soon to saw if I’m glad im herre-
+    
+    MORGAN:
+    Huh, the crazies are out in full force tonight huh?
+    
+    Julie: 
+    Oh her? She’s just some dumb college student. She works across the street and comes here after her shift ends gets hammered and sings on Karaoke nights. 
+    
+    JULIE:
+    Alone. 
+    
+    JULIE:
+    Kinda sad really.
+    
+    Lasagna: 
+    -CAUSE YOU AX FUR IT CaUSE you need SOME!-
+    
+    MORGAN: 
+    She’s not that bad. I mean, I’ve heard worse tonight.
+    
+    Julie: 
+    You just think she’s hot don’t you?
+    
+    MORGAN:
+    Well, I can barely see her.
+    
+    Julie: 
+    She can barely say a word let alone a sentence and you think that she’s singing well?
+    
+    MORGAN: 
+    Putting a sentence together isn’t the only point of singing, sometimes you’re just trying to express a feeling or something.
+    
+    Julie: 
+    The feeling of intense queeziness brought about by one too many cocktails? Or five.
+    
+    MORGAN: 
+    Well, there are other feelings there too. I just can’t put my finger on them.
+    
+    Julie: 
+    I think you’re just trying to start a fight for no reason again.
+    
+    MORGAN: 
+    I think you’re getting too good at this. Alright, I’m taking off. Have fun with the rest of tonight’s drunks.
+    
+    Julie: 
+    I’ll try. No guarantees but I’ll certainly try.
+    6 DIANA INTRO
+    FADE IN:
+    [Restaurant lobby]
+    
+    
+    [Footsteps, restaurant murmur audio]
+    
+    JULIE:
+    table 7’s asking for you Morgan.
+    
+    MORGAN:
+    What does she want?
+    
+    JULIE:
+    I don’t know, but she does come in pretty regularly.
+    
+    ROB:
+    Yeah I always try to put in a little extra for her but she never leaves very high tips. I don’t know if she’s just stingy with her money or what?
+    
+    JULIE:
+    Whatever, just go!
+    
+    [JULIE sprite fade out, fade in DIANA sprite]
+    
+    MORGAN(V.O.):
+    Oh my god. Why is she- why is this happening.
+    
+    MORGAN(V.O.):
+    There’s a cute girl calling me over to her table?
+    
+    MORGAN:
+    Hello, I am Morgan, I was told that you wanted to see me?
+    
+    DIANA:
+    Yeah. Although I can’t say I’m very impressed. When I asked to see the cook I expected a more  well-groomed adult. 
+    
+    MORGAN(V.O.):
+    So... Did I fuck up? That was faster than I thought it would take.
+    
+    DIANA:
+    ... Oh well, it’s not like you can embarrass yourself all the way back in the kitchen. I’m looking for a new personal cook, come work for me. 
+    
+    MORGAN(V.O.):
+    My heart feels like it’s about to burst out of my chest, she has such pretty--
+    
+    MORGAN(V.O.):
+    Wait, she wants me to come work for her? I can’t do that, that would mean I would have to (A-:leave this place.) (A+:put off school.)
+    
+    MORGAN:
+    I... I’m sorry but I can’t do that.
+    
+    DIANA:
+    There are- wait, are you for real?
+    
+    DIANA:
+    I just can’t believe that you’d rather keep your part time job over- you know what how much to get you out of this place is so beneath your skill?
+    
+    
+    MORGAN:
+    Oh no, I get paid plenty here. I mean not enough to pay rent but it’s all covered everything, it’s fine, I don’t need extra money.
+    
+    DIANA:
+    You can’t... make... rent?
+    
+    MORGAN:
+    Don’tyelldon’tyelldon’t-
+    
+    DIANA:
+    How could some one with the kind of talent that you have not be able to pay for your living?
+    
+    MORGAN (V.O.): 
+    Is she flirting with me???
+    
+    DIANA:
+    I have come here a number of times and food always have a surprising elegance to it on certain days, and those must be days that you are the one in front of the stove.
+    
+    MORGAN (V.O.)
+    She is, what do it do, I DON’T KNOOOW!
+    
+    DIANA:
+    There is so much more that you can 	do with a much better facility. And I want that and am willing to pa-
+    
+    MORGAN (V.O.):
+    Idon’tknowidon’tknowidon’tknow
+    
+    MORGAN (V.O.):
+    I guess i could just
+    
+    [pop in food sprite of tiramisu]
+    
+    MORGAN (V.O.):
+    That’s better I guess. It’s just so luxurious on the palette. A garnish is common but the topping works all on its own.
+    
+    MORGAN:
+    Hey, Speaking of food, have you made your order yet?
+    
+    DIANA:
+    Wha- Now that you mentioned it I have not. I would like the-
+    
+    MORGAN:
+    I think I can whip up something for you. Be right back!
+    
+    [INSERT FUCKING MINI GAME]
+    
+    
+    
+    Caprese Salad (+)
+    Spaghetti (- and everythihng after)
+    Balsamic vinegar (+)
+    Pesto (-)
+    Marinara (-)
+    Pure Honey (+)
+    Cane sugar (-)
+    Toasted garlic(-)
+    Basil leaves (+)
+    Big leaf Parsley (-)
+    
+    
+    Oregano (-)
+    Extra virgin olive oil (+)
+    Highest grade canola oil (-)
+    Vegetable oil (-)
+    Large sliced tomato (+)
+    Tomato paste (-)
+    potato slices (-)
+    Fresh Mozzarella sliced (+)
+    Fresh Parmesan grated (-)
+    Cheddar finely grated(-)
+    
+    
+    
+    
+    +
+    -
+    DIANA:
+    Oh my, such elegance you have here. Simple but refined.
+    
+    MORGAN:
+    Thanks, I hope everything is to you liking.
+    
+    DIANA:
+    MMMMM you have really outdone yourself.
+    
+    MORGAN (V.O.):
+    Now to slip away and hope to not have to deal with 
+    
+    DIANA:
+    What were did that chef go?
+    
+    ROB:
+    I think he left for the night.
+    
+    DIANA: 
+    I wasn’t even able to pay him for the delicious meal.
+    
+    Rob:
+    Oh don’t worry about it miss, I’ll cover the meal. I mean you didn’t actually even order it.
+    
+    DIANA:
+    That is not what I- Thank you. I’m out. 
+    MORGAN: Well this is what I could whip up for you.
+    
+    DIANA:
+    This is not what I was expecting... This is the best that this establishment has to offer?
+    
+    MORGAN:
+    Yes. At least to my knowledge.
+    
+    DIANA:
+    I would like to talk to you manager.
+    
+    MORGAN:
+    I don’t think dad’s in but I can grab Rob for you?
+    
+    DIANA: That will be fine.
+    
+    MORGAN (V.O.)
+    Uh this doesn’t seem like it will end well.
+    
+    ROB:
+    Yes ma’am is something wrong?
+    
+    DIANA:
+    Yes there is, you are clearly not well equipped enough to make a fine meal.
+    
+    Rob:
+    Are you saying the food is bad?!
+    
+    DIANA:
+    I’m saying what you have instock does not hold up. If you want I would be more than willing to help you get in touch with someone that can facilitate your chef, or maybe I can now convince him on coming to wor-
+    
+    ...
+    
+    
+    Where did he go?
+    
+    Rob:
+    I think he took off for the night.
+    
+    DIANA: well charge my card and and be on my way.
+    
+    
+    
+    
+    
+    
+    7 HOME
+    [Door closing sound, no music]
+    
+    [Paper rustling]
+    
+    MORGAN (V.O.): 
+    That was an event, oh now what another notice? I’m not that far behind on rent... Eh, I’ll try going down and talk with him tomorrow. I’m sure I’ll be able to work something out with him. Just gotta pull a bit out of my savings is all. This town’s just too damn expensive.
+    
+    [Heavy Knocking at door]
+    
+    Dave: 
+    Hello?
+    
+    [MC opens door]
+    
+    
+    MORGAN: 
+    ...hey?
+    
+    Dave: 
+    Hey! My girlfriend and I just moved on! Thought I’d go around and say hello to the neighbors.
+    
+    MORGAN: 
+    ...well, i guess I’m one of them.
+    
+    Dave: 
+    Uh, yeah... Name’s Dave, pleased to meet ya!
+    
+    MORGAN: 
+    Morgan...
+    
+    Dave: 
+    Cool. So we’re from out of town and were wondering if you knew any places that are fun to hang out or eat around here. Thought it’d be fun to have a party!
+    
+    MORGAN: 
+    uh, no. i don’t go out much.
+    
+    Dave: 
+    Oh. Uh, well, one of the other neighbors offered to take us to a place. You wanna join?
+    
+    MORGAN  :
+    nah. i’ve got plans for the rest of the night.
+    
+    Dave: 
+    Oh...
+    
+    Dave: 
+    So, what do you do for a living?
+    
+    MORGAN: 
+    cook...
+    
+    Dave: 
+    Interesting, you must have some crazy stories about customers.
+    
+    MORGAN: 
+    not really.
+    
+    Dave: 
+    Uh-huh.
+    
+    Dave: 
+    Well I’m a mechanic, work on cars. Last week, we had this ‘67 Impala come through the shop. Man, I’d give a leg to drive that, though I probably wouldn’t be able to without the leg haha.
+    
+    MORGAN: 
+    i’m not really into cars.
+    
+    Woman: 
+    Honey, who are you talking to?
+    
+    Dave: 
+    This is Morgan. He’s out new neighbor, he’s a cook.
+    
+    MORGAN: 
+    yep... well I guess i’ll see you two later, bye.
+    
+    Dave: 
+    Goodnight Morgan, see you around man!
+    
+    MORGAN (V.O.): 
+    They seem nice. I think that’s the problem with communal living, really. It’s not like I really have anything to do, but doing nothing is better than being around strangers. I guess I should get to bed, tomorrow is my tour for college.
+    
+    9 ARIA CONTINUED
+    [coffee shop sounds]
+    
+    ARIA: 
+    What’s your order?
+    
+    MORGAN: 
+    A large mocha and a muffin.
+    
+    ARIA: 
+    Great, your order will be right out.
+    
+    MORGAN: 
+    Thanks.
+    
+    MORGAN (V.O): 
+    I’m glad I’ve got somewhere I can go for a bit of peace and quiet. Sometimes it’s nice to have a some time to myself. Take a break from all the crazy I’ve been dealing with lately.
+    
+    Gotta give myself a little breather before I have to head off to the campus, this coffee shop is tucked away enough that it doesn’t get too many customers. Taking my breaks from work and school here will be some of the best parts of my day. Taking my breaks from Nick here are some of the best parts of my week.
+    
+    NICK: 
+    Hello friend! Are you getting lunch?
+    
+    MORGAN: 
+    ...
+    
+    NICK: 
+    If you had listened to me earlier you would not be having this problem.
+    
+    MORGAN: 
+    ...
+    
+    NICK: The advice of my grandmother is flawless see, never leave the house without your lunch.
+    
+    MORGAN: 
+    What are you doing here?
+    
+    NICK: 
+    Oh, little sister called. She needed help moving things. She asked for you, but I am a strapping young gentleman and thought I could do heavy moving.
+    
+    MORGAN: 
+    So you’re here because you were helping out my lazy sister at work across the street. Great.
+    
+    NIKOLAUS: 
+    Do not insult sister. She is good beautiful girl.
+    
+    MORGAN: 
+    Meat. Were you, hitting, on MY SISTER?
+    
+    NIKOLAUS: 
+    I would never harm such a delicate flower.
+    
+    MORGAN: 
+    OH IT IS ON NOW YOU YODELING SACK OF SH-
+    
+    ARIA: 
+    HEY, YOU TWO, PIPE DOWN!
+    
+    MORGAN: 
+    Uh... dude’s trying to bang my sister...
+    
+    NIKOLAUS: 
+    I have no violent intentions!
+    
+    ARIA: 
+    I will throw you two out! This is not some kind of boxing ring, this is a coffee shop. Now you two calm down or take it outside, do I make myself clear?
+    
+    NIKOLAUS: 
+    Yes, I am very calm. Always calm.
+    
+    MORGAN (V.O.)
+    It’s my fault I over reacted. It's just this meathead is being a creep, on my little sister!
+
+File "game/script.rpy", line 933: expected statement.
+    And now I’m disrupting her work, even though there is like no one here to really disrupt. 
+                                   ^
+
+File "game/script.rpy", line 935: expected statement.
+    I don’t know what to do..
+                           ^
+
+File "game/script.rpy", line 939: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 940: expected statement.
+    I!... I...
+     ^
+
+File "game/script.rpy", line 942: expected statement.
+    [lasagna sprite]
+                    ^
+
+File "game/script.rpy", line 944: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 945: expected statement.
+    I guess I’m sorry. I didn’t mean to cause an issue. Sorry for yelling. We’ll be going once my order’s out.
+                     ^
+
+File "game/script.rpy", line 947: expected statement.
+    ARIA: 
+        ^
+
+File "game/script.rpy", line 948: expected statement.
+    Ok. You can stay if you want, just don’t both the other guests anymore than you have.
+                     ^
+
+File "game/script.rpy", line 950: expected statement.
+    MORGAN (V.O.): 
+                 ^
+
+File "game/script.rpy", line 951: expected statement.
+    But, there is no one else here...
+       ^
+
+File "game/script.rpy", line 953: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 954: expected statement.
+    Will do ma’am.
+                 ^
+
+File "game/script.rpy", line 956: expected statement.
+    NIKOLAUS: 
+            ^
+
+File "game/script.rpy", line 957: expected statement.
+    We will do no bothering sing lady.
+                                     ^
+
+File "game/script.rpy", line 959: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 960: expected statement.
+    Sing?
+        ^
+
+File "game/script.rpy", line 962: expected statement.
+    NIKOLAUS: 
+            ^
+
+File "game/script.rpy", line 963: expected statement.
+    You do not recognize lady?
+                             ^
+
+File "game/script.rpy", line 965: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 966: expected statement.
+    Recognize what?
+                  ^
+
+File "game/script.rpy", line 968: expected statement.
+    NIKOLAUS: 
+            ^
+
+File "game/script.rpy", line 969: expected statement.
+    She is at your place of work all the time. She is sing lady. You must at least remember her voice.
+           ^
+
+File "game/script.rpy", line 971: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 972: expected statement.
+    Well I hear her voice all the time, she works here and I come here all the time. Though, come to think of it... are you the girl who was singing karaoke across the street last night?
+                                      ^
+
+File "game/script.rpy", line 974: expected statement.
+    ARIA: 
+        ^
+
+File "game/script.rpy", line 975: expected statement.
+    ...
+    ^
+
+File "game/script.rpy", line 977: expected statement.
+    ARIA:
+        ^
+
+File "game/script.rpy", line 978: expected statement.
+    Listen here you-  How do you two know about that?
+                                                    ^
+
+File "game/script.rpy", line 980: expected statement.
+    MORGAN (V.O.):
+                 ^
+
+File "game/script.rpy", line 981: expected statement.
+    Should I not of said anything. Fuck, I totally shouldn’t of said anything. She is pissed.
+                                 ^
+
+File "game/script.rpy", line 984: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 985: expected statement.
+    Well, uh I work there and he... eats there a lot, he also just eats a lot in general. Why whats wrong?
+        ^
+
+File "game/script.rpy", line 987: expected statement.
+    NIKOLAUS: 
+            ^
+
+File "game/script.rpy", line 988: expected statement.
+    I miss you sometimes sing lady.
+                                  ^
+
+File "game/script.rpy", line 990: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 991: expected statement.
+    We’re over there a lot. Is what we’re trying to say.
+                          ^
+
+File "game/script.rpy", line 993: expected statement.
+    ARIA: 
+        ^
+
+File "game/script.rpy", line 994: expected statement.
+    Ok, but you cannot tell anybody here about it. Or just anyone in general, got it.
+      ^
+
+File "game/script.rpy", line 996: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 997: expected statement.
+    I can certainly do that. And nobody will be able to make heads or tails of whatever Arnie is saying anyway.
+                           ^
+
+File "game/script.rpy", line 999: expected statement.
+    NIKOLAUS: 
+            ^
+
+File "game/script.rpy", line 1000: expected statement.
+    He is not PROUD GERM-
+                         ^
+
+File "game/script.rpy", line 1002: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1003: expecting name after dot.
+    Whatever. Your secret is safe with us.
+                                          ^
+
+File "game/script.rpy", line 1005: expected statement.
+    ARIA: 
+        ^
+
+File "game/script.rpy", line 1006: expected statement.
+    Good. Now take your order and go.
+                                    ^
+
+File "game/script.rpy", line 1008: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1009: expected statement.
+    But I thought you said we could stay?
+                                        ^
+
+File "game/script.rpy", line 1011: expected statement.
+    ARIA: 
+        ^
+
+File "game/script.rpy", line 1012: expected statement.
+    GET OUT!
+           ^
+
+File "game/script.rpy", line 1014: expected statement.
+    MORGAN (V.O.)
+                 ^
+
+File "game/script.rpy", line 1015: expected statement.
+    How did I still manage to fuck it up with saucy girl, uh now I have to get to campus and hope that she isn’t going to be mad at me if I come back I really like it there.
+                                                    ^
+
+File "game/script.rpy", line 1017: expected statement.
+    9 INTRO ALEXANDRA
+                     ^
+
+File "game/script.rpy", line 1018: expected statement.
+    Guide: 
+         ^
+
+File "game/script.rpy", line 1019: expected statement.
+    ...on your left you’ll see the Student Union. You can get yourself something to eat there, get a new student ID...
+    ^
+
+File "game/script.rpy", line 1021: expected statement.
+    MORGAN (V.O.): 
+                 ^
+
+File "game/script.rpy", line 1022: expected statement.
+    I can’t believe that girl. Try to be nice and you get the door? Why are my soft hands made for delicate practices being used on such things like washing gross dishes? Well, at least I’m still working there. 
+                             ^
+
+File "game/script.rpy", line 1024: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 1025: expected statement.
+    I wish the other staff wasn’t so rude to me though. It’s not my fault I don’t know what anything is! Ok, I guess it is kind of my fault, but they don’t have to be so mean about it.
+                                                      ^
+
+File "game/script.rpy", line 1027: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 1028: expected statement.
+    Who am I kidding, if I were in their position I’d be making jokes too. At least everyone is friendly enough. Not Nick levels of friendly, but nobody else is also that crazy. Sometimes I wonder about that guy...
+                    ^
+
+File "game/script.rpy", line 1030: expected statement.
+    MORGAN STILL
+                ^
+
+File "game/script.rpy", line 1031: expecting name after dot.
+    Wait... where am I? I think I lost my group. Er, everybody else was in cooking together too, right? This was a tour for cooking students... I think... But that probably wouldn’t explain the high schoolers... Maybe I shou-
+         ^
+
+File "game/script.rpy", line 1033: expected statement.
+    *WHAM*
+          ^
+
+File "game/script.rpy", line 1035: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1036: expected statement.
+    AH!
+      ^
+
+File "game/script.rpy", line 1038: expected statement.
+    Jogging Student: 
+                   ^
+
+File "game/script.rpy", line 1039: expected statement.
+    Oh, sorry, didn’t mean to run into you, you just kinda jumped out there.
+      ^
+
+File "game/script.rpy", line 1041: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1042: expected statement.
+    Yeah, sorry, I guess I should have paid better attention, uh do you know where the cooking classes are held?
+        ^
+
+File "game/script.rpy", line 1044: expected statement.
+    Jogging Student: Well, class rooms can be anywhere, but I think most of their classes are in that building over there.
+                   ^
+
+File "game/script.rpy", line 1046: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 1047: expected statement.
+    Thanks!
+          ^
+
+File "game/script.rpy", line 1049: expected statement.
+    [transition to inside class]
+                                ^
+
+File "game/script.rpy", line 1051: expected statement.
+    MORGAN (V.O.): 
+                 ^
+
+File "game/script.rpy", line 1052: expected statement.
+    So this is what culinary school is going to look like. Man, these guys have everything.
+                                                         ^
+
+File "game/script.rpy", line 1054: expected statement.
+    [LATER]
+           ^
+
+File "game/script.rpy", line 1056: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1057: expected statement.
+    Hello? Are by chance with the tour?
+         ^
+
+File "game/script.rpy", line 1059: expected statement.
+    MORGAN (V.O.): 
+                 ^
+
+File "game/script.rpy", line 1060: expected statement.
+    Oh, this must be one of the high schoolers with the tour. They have some pretty neat uniforms. Most private schools around here are cheap and just have you dress up, they hardly even care what color.
+      ^
+
+File "game/script.rpy", line 1062: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1063: expected statement.
+    Yeah, I just got a bit lost. But I found my way here after all, so it’s all good. This place is great. I mean, look at all this stuff they got. I don’t know if I’ve seen cooking equipment this good in my life. You know, my dad always says, a good kitchen is like a good woman, fully equipped with at least seven ovens.
+        ^
+
+File "game/script.rpy", line 1065: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1066: expected statement.
+    I’m not sure if I want to know what he meant by that...
+                 ^
+
+File "game/script.rpy", line 1068: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1069: expected statement.
+    Neither do I honestly, but he says it all the time. I think it’s some kind of to be a joke about my mom. She always gives him this glares when he says it. Then again, she always glares at him. Between that and the cat story I guess she has a point.
+                         ^
+
+File "game/script.rpy", line 1071: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1072: expected statement.
+    What did your father do to a cat?
+                                    ^
+
+File "game/script.rpy", line 1074: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1075: expected statement.
+    It wasn’t so much to a cat as it was around a cat. A lot of cats. And I don’t think he actually did anything. It’s probably a lie, or an extreme over exaggeration... At least I really hope it is. But anyway, have you even seen a mixer this big? You could probably mix, like, a person in that thing! Shoot, maybe two people.
+                               ^
+
+File "game/script.rpy", line 1077: expected statement.
+    Morgan:
+          ^
+
+File "game/script.rpy", line 1078: expected statement.
+    Ha, mixing people, that’s kinda dirty. Though I guess that mixing up any number of people would be dirty now that I think about it. Or anything. 
+      ^
+
+File "game/script.rpy", line 1080: expected statement.
+    ALEXANDRA:
+             ^
+
+File "game/script.rpy", line 1081: expecting name after dot.
+    Uhuh. haha.
+               ^
+
+File "game/script.rpy", line 1083: expected statement.
+    MORGAN:
+          ^
+
+File "game/script.rpy", line 1084: expected statement.
+    Mixers really are messy devices, no matter what you mix. It’s in their nature. Still, I think I love this room. And to think, there’s probably a dozen more of them. Filled to the brim with flippers, floppers, and so many knives. Well, hopefully there are knives. I mean, I know it’s school so I would understand if they laid off the knives, but that would be a disappointment. Knives are important, for any kitchen.
+                                   ^
+
+File "game/script.rpy", line 1086: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1087: expected statement.
+    Well, if you’re done ranting about dirty mixers and knives, I think we should get back to the tour.
+        ^
+
+File "game/script.rpy", line 1089: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1090: expected statement.
+    What, isn’t this where the tour was supposed to be going?
+        ^
+
+File "game/script.rpy", line 1092: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1093: expected statement.
+    No. The tour doesn’t actually go to this building at all. We don’t get too many culinary students here.
+                                                      ^
+
+File "game/script.rpy", line 1095: expected statement.
+    MOGAN: 
+         ^
+
+File "game/script.rpy", line 1096: expected statement.
+    Oh, so you got lost too then? Man, your teacher must be looking everywhere for you little guy.
+      ^
+
+File "game/script.rpy", line 1098: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1099: expected statement.
+    What? I’m here to look for you. I’m Alexandra, and I’m the one in charge of the tour. I understand that you got a little lost, but we need to get back to the tour. I’ve got a meeting after this with leadership and I’m not really sure how they’d react if I was late to my first meeting as president.
+        ^
+
+File "game/script.rpy", line 1101: expected statement.
+    [tso sprite]
+                ^
+
+File "game/script.rpy", line 1103: expected statement.
+    MORGAN (V.O.): 
+                 ^
+
+File "game/script.rpy", line 1104: expecting name after dot.
+    President... Alexandra... oh, oh no! 
+              ^
+
+File "game/script.rpy", line 1106: expected statement.
+    This is not good. This is definitely not good. They’re going to kill me. This is gonna end up in the school paper. Certainly. And at a school like this, who wouldn’t read it? I’m going to lose everything for misgendering the student body president. My life is over. 
+                                                                           ^
+
+File "game/script.rpy", line 1108: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1109: expected statement.
+    Hello?
+         ^
+
+File "game/script.rpy", line 1111: expected statement.
+    MORGAN (V.O.): 
+                 ^
+
+File "game/script.rpy", line 1112: expected statement.
+    No, wait, I just need to apologize somehow. Think, think, I need to come up with something. I could make her food. No, no time. Maybe a novelty gift? One that says, “I’m sorry I thought you were a fourteen year-old boy, but that’s in the past.” Like a puppy. No, that is not what puppies say. Maybe there’s something in the language of flowers for this...
+      ^
+
+File "game/script.rpy", line 1114: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1115: expected statement.
+    Are you ok, my dude?
+              ^
+
+File "game/script.rpy", line 1117: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1118: expected statement.
+    That’s it, flowers! That’s what dad always gets mom when he screws up, it sometimes works. Now, which would even work?... carnations? Tulips? Roses? Man, dad has had to buy so many flowers I can’t remember... I can’t think... I can’t-
+             ^
+
+File "game/script.rpy", line 1120: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1121: expected statement.
+    Is there something wrong?
+                            ^
+
+File "game/script.rpy", line 1123: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1124: expected statement.
+    GAH, WHY ARE FLOWERS SO DAMN COMPLICATED!
+       ^
+
+File "game/script.rpy", line 1126: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1127: expected statement.
+    I-
+      ^
+
+File "game/script.rpy", line 1129: expected statement.
+    ALEXANDRA:
+             ^
+
+File "game/script.rpy", line 1130: expected statement.
+    Do you need a moment? 
+                        ^
+
+File "game/script.rpy", line 1132: expected statement.
+    ...
+    ^
+
+File "game/script.rpy", line 1134: expected statement.
+    If you do it’s no problem really.
+                                    ^
+
+File "game/script.rpy", line 1136: expected statement.
+    MORGAN: 
+          ^
+
+File "game/script.rpy", line 1137: expected statement.
+    ...no, no. Let’s just forget that this ever happened.
+    ^
+
+File "game/script.rpy", line 1139: expected statement.
+    ALEXANDRA: 
+             ^
+
+File "game/script.rpy", line 1140: expected statement.
+    Good, because we really should be going. 
+        ^
+
+File "game/script.rpy", line 1142: expected statement.
+    END OF DEMO BOIS
+                    ^
+
+Ren'Py Version: Ren'Py 6.99.12.4.2187
