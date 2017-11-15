@@ -312,13 +312,52 @@ label start:
     MORGAN "Fine, Fine I’ll make the paste-food!"
 
     #[INSERT FUCKING COOKING GAME]
+    label cook1_start:
+    menu:
+        "Beef Schnitzel":
+            jump cook1_food_1
+        "Chicken Fried Steak":
+            jump cook1_food_2
+        "Notes":
+            jump cook1_notes
+            
+label cook1_food_1:
+    "Beef Schnitzel- A German dish. I should be able to make this with the beef and breading we have, I'll just have to tenderize it first."
+    menu:
+        "Prepare this?":
+            jump cook1_good
+        "Back to recipie list":
+            jump cook1_start
 
-    #good
+label cook1_food_2:
+    "Chicken Fried Steak- A pretty normal dish on the menu, popular for lunch."
+    menu:
+        "Prepare this?":
+            jump cook1_bad
+        "Back to recipie list":
+            jump cook1_start
+
+label cook1_notes:
+    menu:
+        "The Meathead":
+            jump cook1_note_1
+        "Recipie List":
+            jump cook1_start
+    
+label cook1_note_1:
+    "This guy seems to like German food. I should probably make him something German"
+    jump cook1_notes
+
+
+
+label cook1_good:
     NIKOLAUS "OH MY THIS IS WUNDERBAR!" 
+    jump cook1_done
 
-    #bad
+label cook1_bad:
     NIKOLAUS "OH MY, I see what you mean, well maybe we have something back home you don’t have in your kitchen!"
 
+label cook1_done:
     #MORGAN (V.O.):
     "I think I’ll just gonna be going now jobs done."
 
