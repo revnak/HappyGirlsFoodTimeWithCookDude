@@ -25,17 +25,43 @@ define Jogstudent = Character("Jogging Student")
 define ALEXANDRA = Character("Alexandra")
 
 # Declare images
-image bgkitchen = "kitchen resize.png"
-image bgschool = "schoo.png"
-image bgapp = "apartment.png"
-image bgcafe = "cafe.png"
+image bg kitchen = "kitchen resize.png"
+image bg school = "school.png"
+image bg app = "apartment.png"
+image bg cafe = "cafe.png"
+
+#Declare sprite images
+image lasagna work = "lasagna work.png"
+image sausage day = "sausage day.png"
+image tiramisu day = "tiramisu day.png"
+image tso prez = "tso prez.png"
 
 label start:
+    
+    
+# ######DEBUG JUMPS###############################
+    scene bg kitchen
+    menu:
+        "Start from beginning":
+            jump intro
+        "Sausage intro":
+            jump sausage_intro
+        "Cooking 1":
+            jump cook1_start
+        "Lasagna intro 1":
+            jump lasagna_intro_1
+        "Tiramisu intro":
+            jump tiramisu_intro
+        "Lasagna intro 2":
+            jump lasagna_intro_2
+        "Tso intro":
+            jump tso_intro
+# ################################################
 
-
-    scene bgkitchen 
-    #bg Kitchen
     #1 INTRODUCTION START
+label intro:
+    scene bg kitchen 
+    #bg Kitchen
     
     #MORGAN (V.O.):
     "All my life I’ve been told that the fastest way to a person’s heart is through their stomach. I find those cliche’ sayings stupid. But my dad has always lived by that cheesy old saying and I’ve never met a person more popular than him."
@@ -141,7 +167,7 @@ label start:
     #:FADE OUT
 
     #2
-    scene bgkitchen
+    scene bg kitchen
     #MORGAN(V.O.):
     "Julie and Rob seem to think that I don’t like them, but really I can’t say I give them good reason to think that."
 
@@ -214,6 +240,7 @@ label start:
     #:FADE OUT
 
     #3 NIKOLAUS INTRO
+label sausage_intro:
 
 
     Julie "Hey, there’s this weird guy out there asking for a meatball menu? What should I tell him?"
@@ -227,6 +254,8 @@ label start:
     Julie "Ok, well the guy’s a bit excitable and I don’t-"
 
     #[door slams open]
+    
+    show sausage day at center
 
     NICK "I DEMAND TO SEE THE CHEF."
 
@@ -285,6 +314,8 @@ label start:
 
     #Morgan (V.O.)
     "He is a meathead, a stubborn meathead!"
+    
+    hide sausage day
 
     #[pops into sausage sprite]
 
@@ -312,7 +343,7 @@ label start:
     MORGAN "Fine, Fine I’ll make the paste-food!"
 
     #[INSERT FUCKING COOKING GAME]
-    label cook1_start:
+label cook1_start:
     menu:
         "Beef Schnitzel":
             jump cook1_food_1
@@ -376,12 +407,15 @@ label cook1_done:
     #[sparkles if we have them]
 
     #[nick sprite]
+    show sausage day at center
 
     MORGAN "Yeah meathead it was no problem, my boss was gonna get angry at me and I would really enjoy working here, but that might end soon I don’t know."
     
     #4
-    scene bgapp
+    scene bg app
     MORGAN "Ugh!"
+    
+    show sausage day at center
 
     NIKOLAUS "I am very sorry, is there any way I could help?"
 
@@ -428,7 +462,8 @@ label cook1_done:
     MORGAN "Yeah totally... *cough*"
 
     #5 ARIA INTRO? Also new job
-    scene bgkitchen
+label lasagna_intro_1:
+    scene bg kitchen
     #MORGAN (V.O.): 
     "Well, today could have gone better. Definitely better, this is just so many dishes how do we have so many dishes!"
 
@@ -458,6 +493,8 @@ label cook1_done:
     #[transition to muffled voices, maybe some pop-y sounding music in the background]
 
     MORGAN "Ok got the tables moved for you, I’ll be back to" 
+    
+    show lasagna work at center
 
     ARIA "-Maked room wif me is to soon to saw if I’m glad im herre-"
 
@@ -492,7 +529,8 @@ label cook1_done:
     Julie "I’ll try. No guarantees but I’ll certainly try."
 
     #6 DIANA INTRO
-    scene bgkitchen
+label tiramisu_intro:
+    scene bg kitchen
     #[Restaurant lobby]
 
 
@@ -509,6 +547,8 @@ label cook1_done:
     JULIE "Whatever, just go!"
 
     #[JULIE sprite fade out, fade in DIANA sprite]
+    
+    show tiramisu day at center
 
     #MORGAN(V.O.):
     "Oh my god. Why is she- why is this happening."
@@ -537,7 +577,6 @@ label cook1_done:
 
     DIANA "I just can’t believe that you’d rather keep your part time job over- you know what how much to get you out of this place is so beneath your skill?"
 
-
     MORGAN "Oh no, I get paid plenty here. I mean not enough to pay rent but it’s all covered everything, it’s fine, I don’t need extra money."
 
     DIANA "You can’t... make... rent?"
@@ -565,6 +604,8 @@ label cook1_done:
 
     #[pop in food sprite of tiramisu]
 
+    hide tiramisu day
+
     #MORGAN (V.O.):
     "That’s better I guess. It’s just so luxurious on the palette. A garnish is common but the topping works all on its own."
 
@@ -578,6 +619,9 @@ label cook1_done:
 
 
     #Good
+    
+    show tiramisu day at center
+    
     DIANA "Oh my, such elegance you have here. Simple but refined."
 
     MORGAN "Thanks, I hope everything is to you liking."
@@ -600,7 +644,9 @@ label cook1_done:
 
     #Bad
     MORGAN "Well this is what I could whip up for you."
-
+    
+    show tiramisu day at center
+    
     DIANA "This is not what I was expecting... This is the best that this establishment has to offer?"
 
     MORGAN "Yes. At least to my knowledge."
@@ -632,7 +678,7 @@ label cook1_done:
 
     #7 HOME
     #[Door closing sound, no music]
-    scene bgapp
+    scene bg app
     #[Paper rustling]
 
     #MORGAN (V.O.): 
@@ -691,8 +737,11 @@ label cook1_done:
     "They seem nice. I think that’s the problem with communal living, really. It’s not like I really have anything to do, but doing nothing is better than being around strangers. I guess I should get to bed, tomorrow is my tour for college."
 
     #9 ARIA CONTINUED
-    scene bgcafe
+label lasagna_intro_2:
+    scene bg cafe
     #[coffee shop sounds]
+    
+    show lasagna work at center
 
     ARIA "What’s your order?"
 
@@ -701,6 +750,8 @@ label cook1_done:
     ARIA "Great, your order will be right out."
 
     MORGAN "Thanks."
+    
+    hide lasagna work
 
     #MORGAN (V.O): 
     "I’m glad I’ve got somewhere I can go for a bit of peace and quiet. Sometimes it’s nice to have a some time to myself. Take a break from all the crazy I’ve been dealing with lately."
@@ -708,6 +759,8 @@ label cook1_done:
     "Gotta give myself a little breather before I have to head off to the campus, this coffee shop is tucked away enough that it doesn’t get too many customers."
 
     "Taking my breaks from work and school here will be some of the best parts of my day. Taking my breaks from Nick here will be some of the best parts of my week."
+
+    show sausage day at center
 
     NICK "Hello friend! Are you getting lunch?"
 
@@ -732,6 +785,9 @@ label cook1_done:
     NIKOLAUS "I would never harm such a delicate flower."
 
     MORGAN "OH IT IS ON NOW YOU YODELING SACK OF SH-"
+    
+    show sausage day at right
+    show lasagna work at left
 
     ARIA "HEY, YOU TWO, PIPE DOWN!"
 
@@ -755,6 +811,7 @@ label cook1_done:
     MORGAN "I... I..."
 
     #[lasagna sprite]
+    hide lasagna work
 
     MORGAN "I guess I’m sorry. I didn’t mean to cause an issue. Sorry for yelling. We’ll be going once my order’s out."
 
@@ -809,7 +866,8 @@ label cook1_done:
     "How did I still manage to fuck it up with saucy girl, uh now I have to get to campus and hope that she isn’t going to be mad at me if I come back I really like it there."
 
     #9 INTRO ALEXANDRA
-    scene bgschool
+label tso_intro:
+    scene bg school
     Guide "...on your left you’ll see the Student Union. You can get yourself something to eat there, get a new student ID..."
 
     #MORGAN (V.O.): 
@@ -839,6 +897,8 @@ label cook1_done:
     "So this is what culinary school is going to look like. Man, these guys have everything."
 
     #[LATER]
+    
+    show tso prez at center
 
     ALEXANDRA "Hello? Are you by chance with the tour?"
 
@@ -882,6 +942,7 @@ label cook1_done:
     "President... Alexandra... oh, oh no!"
 
     #[tso sprite]
+    hide tso prez
 
     "This is not good. This is definitely not good. They’re going to kill me. This is gonna end up in the school paper. Certainly. And at a school like this, who wouldn’t read it? I’m going to lose everything for misgendering the student body president. My life is over."
 
