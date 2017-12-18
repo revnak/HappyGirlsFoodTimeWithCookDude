@@ -16,7 +16,7 @@ define Guide = Character("Guide")
 define Jogstudent = Character("Jogging Student")
 define Alexandra = Character("Alexandra")
 
-# Declare images
+# Declare background images
 image bg kitchen = "kitchen resize.png"
 image bg school = "school.png"
 image bg app = "apartment.png"
@@ -48,6 +48,9 @@ image tso prez flustered = "tso prez flustered.png"
 image tso prez tired = "tso prez tired.png"
 image tso prez worried = "tso prez worried.png"
 image tso food = "tso food.png"
+
+image female = "silhouette female.png"
+image male = "silhouette male.png"
 
 label start:
     
