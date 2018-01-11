@@ -84,7 +84,149 @@ label start:
         "Tso intro":
             jump tso_intro
 # ################################################
+# ################################################
 
+    #1 INTRODUCTION START
+label intro:
+    scene bg kitchen 
+    #bg Kitchen
+    
+
+    #Morgan(V.O.): 
+    "All my life I’ve been told that the fastest way to a person’s heart is through their stomach."
+    
+    #Morgan(V.O.):
+    "I find those cliche’ sayings stupid. But my dad has always lived by that cheesy old saying and I’ve never met a person more popular than him."
+    
+    #Morgan(V.O.):
+    "His restaurant is always packed with people smiling, laughing, and eating. They’re even paying for it."
+    
+    #Morgan(V.O.):
+    "The food is famous, but it’s his personality that keeps people coming back again and again. He’s always welcoming and knows everyone by name."
+    
+    #Morgan(V.O.):
+    "To him people are worth opening up and bearing your emotions to. He’s kind of an idiot I guess."
+    
+    #Morgan(V.O.):
+    "..."
+    
+    #Morgan(V.O.):
+    "I’d give anything to see people the way he does."
+    
+    #[Kitchen sounds and muffled crowd noises in the background]
+    #[fade in]
+    
+    #Morgan(V.O.):
+    "For as long as I could remember I’ve felt more at home in a kitchen than anywhere else. I can do what I love without worrying so much."
+    
+    #Morgan(V.O.):
+    "This kitchen is a lot of white walls and chrome appliances for the most part. Though there is some older more plastic ones that Dad has never been able to part with."
+    
+    #Morgan (V.O.)
+    "It might be a little old and worn down but it has its charms about it. Like How all the stoves and ovens work, but it takes a little longer for the second oven to get up to temperature."
+    
+    #Morgan (V.O.):
+    "We got everything you’d need to to make pretty much anything! Flippers, Flappers, Wirewands, Noodlegrabbers, Bowlsticks, Wirlymagigs, Potatoflays, Tinybidents, and so many other different utensils."
+    
+    #Morgan (V.O.):
+    "With these specialty tools being at a chefs disposal and proper know-how they can make all kinds of wonderful foods!"
+    
+    #Morgan (V.O.):
+    "Between the sizzling of stove tops, banging of kitchen ware, orders coming in, and all the people about, everyone has to talk louder."
+    
+    #Morgan (V.O.):
+    "This does mean that if things get heated even the slightest someone is bound to start yelling, and I really hate it."
+    
+    #Morgan (V.O.):
+    "However, it’s really important to be able communicate well, that way we get every order for each of the guests correct!"
+    
+    Morgan "OOORDER UP!"
+    
+    show female at center
+    
+    Julie "You do know we have a bell for a reason, right?"
+    
+    #Morgan(V.O.):
+    "Julie, my two faced little sister. I wonder if she hears half the shit that comes out of her mouth."
+    
+    Morgan "Yeah, I know. We ring it when you get too far from home. We wouldn’t want anyone to snatch you up and take you off to the pound."
+    
+    Julie "Ha. Ha. I’m a dog? Your the one with breath so bad he can’t get a girlfriend."
+    
+    #Morgan (V.O.):
+    "My breath doesn’t smell. *sniff sniff*"
+    
+    Morgan "Why are you back here anyway, isn’t there some pervy old man you should be chatting up for tips?"
+    
+    Julie "Whatever, just stop sitting there with that stupid look on your face. I came to tell you that Dad needs to talk with you. He’s out on his break right now."
+    
+    Julie "Have Rob take over for you, he’s a better cook than you anyway."
+    
+    Morgan "You know, It’s almost impossible to identify a body after its been charred to the bone."
+    
+    show female at left
+    show male at right
+    
+    Rob "Quit bickering, if a customer overhears, it would look highly unprofessional."
+    
+    #Mogan (V.O.):
+    "Rob, the restaurant’s host. He is a hard working, honest guy. Too bad there isn’t a doctor that could do something about that stick up his ass."
+    
+    Morgan "Julie, see you’re finally bugging Rob to the point where he’s actually going to try to kill himself in my kitchen."
+    
+    Rob "What! Huh, no!"
+    
+    Rob "AND I DON’T WANT TO KILL MYSELF, YOU DISRESPECTFUL LITTLE PIECE OF--"
+    
+    #Morgan(V.O.):
+    "...i fucking hate it when people start yelling..."
+    
+    Rob "--AND FURTHERMORE, YOU’RE ALWAYS SITTING THERE WITH THIS SMUG AS F--"
+    
+    #Morgan(V.O.):
+    "...i just shouldn’t have come to work today, i don’t have to listen to this… i can’t..."
+    
+    Rob "--JUST BECAUSE YOUR PARENTS OWN THE PLACE DOESN’T MEAN YOU CAN GO AROUND SAYING WHATEVER YOU--"
+    
+    #Morgan(V.O.):
+    "...i can’t... it’s just so loud… i can’t just leave, if i leave he’ll just yell more…"
+    
+    Rob "-WHY ARE YOU JUST STARING, SAY SOME-"
+    
+    #Morgan(V.O.):
+    "...my arms feel like they’re noodles. why is it my chest feels like a pressure cooker. i just want to leave..."
+    
+    Rob "-ARE YOU EVEN LISTE-"
+    
+    #Morgan(V.O.):
+    "...i just..."
+    
+    Rob "--JULIE, GET BACK TO THE FRONT ALREADY, THERE ARE CUSTOMERS WAITING!--"
+    
+    #Morgan(V.O.):
+    "...leave"
+    
+    Julie "Quit yelling, the customers will hear you! What was that about being professio--"
+    
+    #Morgan(V.O.):
+    "i just want to leave."
+    
+    #Morgan(V.O.):
+    "let me leave"
+    
+    #Morgan(V.O.):
+    "letmeleaveletmeleaveLETMELEAVELETMELEA-"
+    
+    #[ROB turns into food sprite, with playful pop sound]
+    
+    #Morgan(V.O.):
+    "Why does this always make me feel better? What was I doing? Oh, right. I have to go talk to dad."
+    
+    Rob "-F YOU AREN’T GOING TO LISTEN TO ME THEN GO TALK TO-"
+    
+    #[Hastened footsteps echo off the floor]
+    
+    Morgan "OK I’ll go talk to him, then I’ll get on the next order when I get back!"
 #SCENE 2
 ##################################################
 
@@ -174,6 +316,236 @@ label school_done:
         
     #[Footsteps and Swinging Door sounds]
         
+            #3 NIKOLAUS INTRO
+label sausage_intro:
+    scene bg kitchen 
+
+    show Female at center
+    
+    Julie "Hey, there’s this weird guy out there asking for a meatball menu? What should I tell him?"
+    
+    Morgan "That we don’t have one, this is a family style restaurant."
+    
+    Julie "Well, he did say something about pickled herring?"
+    
+    Morgan "Tell him this is a good family restaurant."
+    
+    Julie "Ok, well the guy’s a bit excitable and I don’t-"
+    
+    #[door slams open]
+    
+    #[Nick sprite left, Female sprite right]
+    
+    Nick "I DEMAND TO SEE THE CHEF!" #[angry]
+    
+    #Morgan (V.O):
+    "Who does this man made mostly of fucking thick ass steaks with a fluffy yellow poof for hair want, well whatever it is I sure as hell don’t want to deal with it."
+    
+    #Morgan (V.O.):
+    "And why does he have to have a shirt so tight it shows off all of his- nevermind!"
+    
+    Morgan "I think he’s out back on a smoke break, big metal door, can’t miss it."
+    
+    Nick "Thank you sir." #[neutral]
+    
+    #[Nick sprite hide, Female center]
+    
+    Julie "We have a back door?"
+    
+    Morgan "There’s a door-"
+    
+    Nick "WHY IS THIS ROOM SO COLD?!?" #[angry]
+ 
+    Morgan "-it’s to the refrigerator. But it is a door and it is in the back."
+    
+    #[Nick sprite left, Female sprite right]
+
+    Nick "What is meaning of this! I just want to talk to the chef here!" #[angry]
+    
+    Morgan "Well the other guy is handling smoked fish back there. I’ve done worse."
+    
+    Nick "He said you were the chef!" #[angry]
+    
+    Morgan "I am, so is he. We are both the chef, chefs. Sometimes there is more than one person that can satisfy the role."
+    
+    Morgan "For example, Julie is not the only person getting on my nerves today."
+    
+    Nick "Why is there no authentic German cuisine on your menu!" #[angry]
+    
+    Morgan "Because this is primarily an american family style restaurant."
+    
+    Nick "Then why not have authentic German-" #[neutral]
+    
+    Morgan "Because this is a good family style restaurant."
+    
+    Nick "You didn’t even let me finish!" #[angry]
+    
+    Morgan "Because it was going to be awful." 
+    
+    Nick "HOW DARE YOU INSULT MY PROUD AND MAGNIFICENT CULTURE!?! YOU BACKWARDS AMERICANS THINK YOU KNOW EVERYTHING DON’T YOU!?!" #[angry]
+    
+    #Morgan (V.O.): 
+    "Why are we arguing about this, why can’t this guy just get that we don’t do food from germany, it's not that hard to understand."
+    
+    Morgan "I think I know how to make good food without grinding it into a flavourless paste. Or, do you think I have something already pickled, we don’t!"
+    
+    Nick "Meatballs are not flavourless and not paste." #[angry]
+    
+    Nick "They are a moist and bouncy! Also you can buy it can-" #[happy]
+    
+    Morgan "This is a GOOD family restaurant!"
+    
+    #Morgan (V.O.):
+    "Now he’s got me yelling. why is he still here, we don’t have what he fucking wants! I don’t want to deal with this right now."
+    
+    #Morgan (V.O.):
+    "I don’t know why this has to happen right after that stuff with Dad, is this some kind of test? Are they testing me, why do I need this right now?"
+    
+    Nick "All the more reason to have it!" #[happy]
+    
+    #Morgan (V.O.):
+    "We shouldn’t be arguing, why are we arguing, this is stupid, why does this guy have to be so stupid!"
+    
+    #Morgan (V.O.):
+    "whyamiarguingwithastupidmeatheadwhyarewearguing"
+    
+    Morgan "No it's not meathead!"
+    
+    #Morgan (V.O.)
+    "UGH whyarewestillarguingwhyarewestillarguing"
+    
+    #[Nick sprite pops into sausage sprite]
+    
+    #Morgan (V.O.)
+    "Ha! He is a meathead, a stubborn meathead! Ha... Yeah."
+    
+    #Morgan (V.O.)
+    "I should stop doing this, well at least it’s easier than dealing with this fucking meathead!"
+    
+    #[Nick food sprite left, Male center, Female right]
+    
+    Rob "What the hell is going on now?"
+    
+    Morgan "Oh Rob, this poor German youth is ranting about his struggle with the concept of decent food to me. Sounds like a best seller, revolutionary even. At least for the German people."
+    
+    Nick "Sir, this “chef” is insulting the proud traditional cooking of my great people, and I will not stand for it!"
+    
+    Rob "Julie?"
+    
+    Julie "The german one’s crazy, and Morgan is being Morgan."
+    
+    Rob "Typical. Morgan I don’t know how better to say this, JUST MAKE THE DAMN FOOD!"
+    
+    #Morgan (V.O.):
+    "I don’t want Rob to start yelling again. It always gets easier to get him going after he’s started."
+    
+    Morgan "Fine, fine I’ll make the paste-food!"
+    #[Clear Sprites]
+    #[INSERT FUCKING COOKING GAME]
+
+label cook1_start:
+    menu:
+        "Beef Schnitzel":
+            jump cook1_food_1
+        "Chicken Fried Steak":
+            jump cook1_food_2
+        "Notes":
+            jump cook1_notes
+            
+label cook1_food_1:
+    "Beef Schnitzel- A German dish. I should be able to make this with the beef and breading we have, I'll just have to tenderize it first."
+    menu:
+        "Prepare this?":
+            jump cook1_good
+        "Back to recipie list":
+            jump cook1_start
+
+label cook1_food_2:
+    "Chicken Fried Steak- A pretty normal dish on the menu, popular for lunch."
+    menu:
+        "Prepare this?":
+            jump cook1_bad
+        "Back to recipie list":
+            jump cook1_start
+
+label cook1_notes:
+    menu:
+        "The Meathead":
+            jump cook1_note_1
+        "Recipie List":
+            jump cook1_start
+    
+label cook1_note_1:
+    "This guy seems to like German food. I should probably make him something German"
+    jump cook1_notes
+
+
+
+label cook1_good:
+
+    #Morgan (V.O.) (+):
+    "He eyes his food for a few seconds and then shoves it into his meat hole with a audible omph, which quickly became a very light muffled crunch."
+    "Then, going through the more tender beef inside the breaded exterior his eyes widen with a kind of overwhelming desire, and some nonsense of the PROUD GERMAN PEOPLE."
+    
+    #Morgan (V.O.)(+):
+    "Chewing intensifies, as if it was the meatiest meat grinder that has ever consumed meat, and then ends with more audible gulps."
+
+    Nick "OH MY THIS IS WUNDERBAR!" 
+    jump cook1_done
+
+label cook1_bad:
+    #Morgan (V.O.)(-):
+    "He looks at it very confused at the breaded fried beef steak lightly covered in gravy made from the steak. He dips the steak into the gravy then shoves it in his face with gusto."
+
+    #Morgan (V.O.) (-):
+    "A loud crispy bite. He gives a “hmm” before he continues, chewing for a bit, his eyes start to water a bit but he keeps going, maybe the hot sauce was too much for him."
+    
+    Nick "Could I have some milk please, I wasn’t expecting spicy."
+    
+    #Morgan (V.O.) (-):
+    "I wasn’t expecting someone so beefy to be such a weeny to spicy foods."
+    
+    #Morgan (V.O) (-):
+    "I bring him back a glass of milk add it to his ticket, then watch as he continues to go from eating, to pain, to relief."
+    
+    Nick "OH MY, I see what you mean, I guess you have much different stuff than back home!"
+
+
+label cook1_done:
+    #Morgan (V.O.):
+    "Why the fuck did he come back here, I was just about to quit for the day."
+    
+    Nick "Wait where are you going chef? I haven’t properly thanked you!" #[confused]
+    
+    Morgan " No that’s fine just doing my job really."
+    
+    #[If we can, zoom Nick sprite in till it covers the scene]
+    
+    #Morgan (V.O.):
+    "Suddenly, a hug that feels more like a panzer has rolled over me, all around me..."
+    
+    #Morgan (V.O.):
+    "Grip tight. Oxygen. Need oxygen."
+    
+    Morgan "I CAN’T BREATHE!"
+    
+    #[Zoom back out]
+    
+    Nick "Well, I’m very sorry, sometimes I don’t realize my own strength, but I am very grateful that you went out of your way to make specialty meal for me!" #[happy]
+  
+    #[Nick sprite center]
+    
+    Morgan "Yeah meathead, it was no problem. My boss was gonna get angry at me, and I would really enjoy keeping my job. Sadly it might end soon, I don’t know."
+    
+    Nick "Oh?-" #[surprised]
+    
+    Morgan "Well I need to get ready to leave, glad you enjoyed the meal."
+    
+    #[Exit Nick Sprite]
+    
+    #Morgan (V.O.):
+    "Finally, I can go! Just need to drop off my apron and grab my keys and shit."
+    
 #Scene 4
 ##################################################
     scene bg kitchen
