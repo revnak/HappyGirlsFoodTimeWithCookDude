@@ -43,7 +43,7 @@ image tiramisu day disgust = "tiramisu day disgust.png"
 image tiramisu day surprised = "tiramisu day surprised.png"
 image tiramisu food = "tiramisu food.png"
 
-image tso prez = "tso prez.png"
+image tso prez day = "tso prez.png"
 image tso prez flustered = "tso prez flustered.png"
 image tso prez tired = "tso prez tired.png"
 image tso prez worried = "tso prez worried.png"
@@ -229,8 +229,6 @@ label intro:
     Morgan "OK I’ll go talk to him, then I’ll get on the next order when I get back!"
 #SCENE 2
 ##################################################
-
-label intro:
 
 scene bg kitchen
 
@@ -631,8 +629,411 @@ label cook1_done:
     show sausage day happy at center
     
     Nick "I will come by the restaurant!"
+    
+#Scene 6
+##################################################
+label tiramisu_intro:
+    scene bg kitchen
+    
+    "Glad they are letting me cook on some of the low staff days. Gets me away from all the pruny hands, and DISHES."
+    
+    show female at center
+    
+    Julie "table 7’s asking for you Morgan."
+    
+    Morgan "What do they want?"
+    
+    Julie "I don’t know, but she does come in pretty regularly."
+    
+    show female at left
+    show male at right
+    
+    Rob "Yeah, I always try to put in a little extra for her but she never leaves very high tips. I don’t know if she’s just stingy with her money or what?"
+    
+    Julie "Whatever, just go!"
+    
+    hide female
+    hide male
+    
+    "oh my god. why is she- why is this happening."
+    
+    "there’s a girl calling me over to her table?"
+    
+    Morgan "Hello, I’m Morgan, I was told that you wanted to see me?"
+    
+    "This girl? Whaa, she’s got dark skin and blonde hair? Does she like dye it, or does she like tan... a lot? Her clothes are also probably designer. What could she possibly want with me??"
+    
+    show tiramisu day disgust at center
+    
+    Diana "Yeah. Although, I can’t say I’m very impressed."
+    
+    Diana "When I asked to see the cook I expected a more well-groomed adult. "
+    
+    "so... did i fuck up? that was faster than i thought it would take."
+    
+    show tiramisu day at center
+    
+    Diana "... Oh well, it’s not like you can embarrass yourself all the way back in the kitchen. I’m looking for a new personal cook, come work for me. "
+    
+    "my heart feels like it’s about to burst out of my chest, she has such pretty--"
+    
+    "Wait, she wants me to come work for her? I can’t do that, that would mean I would have to (A-:leave this place.) (A+:put off school.)"
+    
+    Morgan "I... I’m sorry but I can’t do that."
+    
+    show tiramisu day surprised at center
+    
+    Diana "There are- wait, are you for real?"
+    
+    Diana "I just can’t believe that you’d rather keep your part time job over- you know what, how much to get you out of this place that is so beneath your skill?"
+    
+    Morgan "Oh no, I get paid plenty here. I mean not enough to pay rent- but it’s all covered. Uh it’s fine, I don’t need extra money."
+    
+    Diana "You can’t... make... rent?"
+    
+    "don’tyelldon’tyelldon’t-"
+    
+    Diana "How could someone with the kind of talent that you have not be able to pay for your living?"
+    
+    "...is she flirting with me???"
+    
+    show tiramisu day at center
+    
+    Diana "I have come here a number of times and the food always has a surprising elegance to it on certain days, and those must be days that you are the one in front of the stove."
+    
+    "she is, what do i do, I DON’T KNOOOW!"
+    
+    Diana "There is so much more that you can 	do with a much better facility. And I want that, and am willing to pa-"
+    
+    "idon’tknowidon’tknowidon’tknow"
+    
+    "I guess i could... hmmm..."
+    
+    show tiramisu food at center
+    
+    "That’s better I guess. It’s just so luxurious on the palette. A garnish is common but the topping works all on its own."
+    
+    Morgan "Hey, Speaking of food, have you made your order yet?"
+    
+    Diana "Wha- Now that you mentioned it I have not. I would like the-"
+    
+    Morgan "I think I can whip up something for you. Be right back!"
+    
+################ FILL OUT TEXT HERE WITH PROPER ENTRIES #######################
+label cook2_start:
+    menu:
+        "Caprese Salad":
+            jump cook2_food_1
+        "Spaghetti":
+            jump cook2_food_2
+        "Notes":
+            jump cook2_notes
+            
+label cook2_food_1:
+    "Caprese Salad- "
+    menu:
+        "Prepare this?":
+            jump cook2_good
+        "Back to recipie list":
+            jump cook2_start
+
+label cook2_food_2:
+    "Spaghetti- "
+    menu:
+        "Prepare this?":
+            jump cook2_bad
+        "Back to recipie list":
+            jump cook2_start
+
+label cook2_notes:
+    menu:
+        "Tiramisu":
+            jump cook2_note_1
+        "Recipie List":
+            jump cook2_start
+    
+label cook2_note_1:
+    "TEXT GO HERE"
+    jump cook1_notes
+##############################################################################
 
 
+label cook2_good:
+    show tiramisu food at center
+    
+    "She eyes the salad with a gleam of approval, which is a nice change from the slight disapproving look she was giving off earlier."
+    
+    "She then cuts into the toppings, with a level of grace I don’t even think I’ve seen in the kitchen, let alone someone eating anything! Then, piercing the bits onto her fork with some of the basil."
+    
+    "She slowly raises it to her mouth and pops it in, before sliding the fork out between her lips."
+    
+    "She chews with slow small bites, making sure to keep her mouth closed. Then, silently swallows."
+    
+    Diana "Oh my, such elegance you have here. Simple, but refined."
+    
+    Morgan "Thanks, I hope everything is to you liking."
+    
+    "After getting praise from her, she then goes back to taking small elegant bites until she finishes her plate."
+    
+    Diana "MMMMM, you have really outdone yourself."
+    
+    "While she’s enjoying it I can probably slip away and hope I don’t have to deal with this chick anymore."
+    
+    Diana "What, were did that chef go?"
+    
+    show male at left
+    show tiramisu day surprised at right
+    
+    Rob "I think he left for the night."
+    
+    Diana "I wasn’t even able to pay him for the delicious meal."
+    
+    Rob "Oh don’t worry about it miss, I’ll cover the meal. I mean you didn’t actually even order it."
+    
+    show tiramisu day disgust at right
+    
+    Diana "That is not what I- Thank you, uh bye. "
+    
+    jump cook2_done
+
+label cook2_bad:
+    show tiramisu food at center
+    
+    Morgan "Well this is what I could whip up for you."
+    
+    "She looks utterly baffled at the spaghetti. Like, how could you possibly be this stupid, you probably shouldn’t be allowed to cook, what was I thinking."
+    
+    Diana "This is not what I was expecting... This is the best that this establishment has to offer?"
+    
+    Morgan "Yes. At least to my knowledge."
+    
+    Diana "I would like to talk to you manager."
+    
+    Morgan "I don’t think dad’s in, but I can grab Rob for you?"
+    
+    Diana "That will be fine."
+    
+    hide tiramisu food
+    
+    "Uh this doesn’t seem like it will end well. I better just leave."
+    
+    show male at left
+    
+    Rob "Yes ma’am is something wrong?"
+    
+    show tiramisu day disgust at right
+    
+    Diana "Yes there is, you are clearly not well equipped enough to make a fine meal."
+    
+    Rob "Are you saying the food is bad?!"
+    
+    show tiramisu day at right
+    
+    Diana "I’m saying what you have in stock does not hold up. If you want, I would be more than willing to help you get in touch with someone that can facilitate your chef, or maybe I can now convince him on coming to wor-"
+    
+    Diana "..."
+    
+    Diana "Where did he go?"
+    
+    Rob "I think he took off for the night."
+    
+    Diana "Well charge my card and and be on my way."
+    
+    jump cook2_done
+
+#Scene 8
+##################################################
+label tso_intro:
+    scene bg school
+    
+    show female at center
+    
+    Guide "...on your left you’ll see the Student Union. You can get yourself something to eat there, get a new student ID…"
+    
+    hide female
+    
+    "I can’t believe that girl. Try to be nice and you get the door?"
+    
+    "Just really met someone and they are mad at me and whatever. This is the worst feeling! Ugh."
+    
+    "It was so disorientating."
+    
+    "It’s all been really disorientating!"
+    
+    #IF SCHOOL FLAG
+    "Now I got to make sure to make a better impression here if I’m gonna be going through with this."
+    
+    "At least the grounds look pretty amazing. A good amount of different interesting buildings with some older more traditional style buildings and some non typical sleek designs. I wonder which one they hold the cooking classes in!"
+    
+    #ELSE SCHOOL FLAG
+    "Let's just get this over with. Ugh why can’t I just go to the cooking building and be done already."
+    
+    "Their campus is some kind of hodgepodge of buildings. Some of them are almost falling apart, and some that were just built. They make it really confusing to try to commit them all to memory."
+    
+    "Why would they try to get you to remember so many names and locations for buildings, AND THEN make you learn everything required for the classes you have to take."
+    
+    "It’s just a whole lot to try to keep in your head, how am I supposed to concentrate on not messing up these first impressions with all of the new people I meet!"
+    
+    "Wait... where am I?"
+    
+    "I think I lost my group."
+    
+    "Er, everybody else was in cooking together too, right? This was a tour for cooking students..."
+    
+    "I think... But that probably wouldn’t explain the high schoolers... Maybe I shou-"
+    
+    "*WHAM*"
+    
+    Morgan "AH!"
+    
+    show male at center
+    
+    Jogstudent "Oh, sorry, didn’t mean to run into you."
+    
+    Morgan "Yeah, sorry..."
+    
+    "He’s polite at least."
+    
+    Morgan "Uh, do you know where the cooking classes are held?"
+    
+    Jogstudent "Well, class rooms can be anywhere, but I think most of their classes are in that building over there."
+    
+    Morgan "Thanks!"
+    
+    hide male
+    
+    "A strong concrete building, must house some pretty powerful equipment."
+    
+    "Also has windows on the top, maybe for more office type rooms. Do they have... Specialty business classes for restaurants!?!"
+    
+    # BG CLASSROOM HERE###################
+    
+    "So this is what culinary school is going to look like. Man, these guys have everything."
+    
+    show tso prez worried at center
+    
+    Alexandra "Hello? Are you by chance with the tour?"
+    
+    "Oh, this must be one of the high schoolers with the tour. They have some pretty neat uniforms. He’s rather slim as well, probably stays pretty darn busy."
+    
+    "Most private schools around here are cheap and just have you dress up, they hardly even care what color."
+    
+    Morgan "Yeah, I just got a bit lost."
+    
+    Morgan "But, I found my way here after all, so it’s all good."
+    
+    Morgan "This place is great. I mean, look at all this stuff they’ve got. I don’t know if I’ve seen cooking equipment this good in my life."
+    
+    Morgan "You know, my dad always says, a good kitchen is like a good woman, fully equipped with at least seven ovens."
+    
+    show tso prez flustered at center
+    
+    Alexandra "I’m not sure if I want to know what he meant by that..."
+    
+    Morgan "Neither do I honestly, but he says it all the time. I think it’s some kind of joke about my mom."
+    
+    Morgan "She always gives him this glares when he says it."
+    
+    Morgan "Then again, she always glares at him. Between that and the cat story I guess she has a point."
+    
+    show tso prez worried at center
+    
+    Alexandra "What did your father do to a cat?"
+    
+    Morgan "It wasn’t so much to a cat as it was around a cat. A lot of cats."
+    
+    Morgan "And, I don’t think he actually did anything. It’s probably a lie, or an extreme over-exaggeration..."
+    
+    Morgan "At least I really hope it is..."
+    
+    Morgan "But anyway, have you ever seen a mixer this big? You could probably mix, like, a person in that thing! Shoot, maybe two people."
+    
+    Morgan "Ha, mixing people, that’s kinda dirty. Though I guess that mixing up any number of people would be dirty, now that I think about it. Or mixing anything really."
+    
+    show tso prez flustered at center
+    
+    Alexandra "Uhuh. haha."
+    
+    Morgan "Mixers really are messy devices, no matter what you mix. It’s in their nature."
+    
+    Morgan "Still, I think I love this room. And to think, there’s probably a dozen more."
+    
+    Morgan "Filled to the brim with flippers, floppers, and so many knives. Well, hopefully there are knives."
+    
+    Morgan "I mean, I know it’s school so I would understand if they laid off the knives, but that would be such a disappointment. Knives are important, for any kitchen."
+    
+    Alexandra "Well, if you’re done ranting about dirty mixers and knives, we really should get you back to the tour."
+    
+    Morgan "What, isn’t this where the tour was supposed to be going?"
+    
+    show tso prez day at center
+    
+    Alexandra "No. The tour doesn’t actually go to this building at all. We don’t get too many culinary students here."
+    
+    Morgan "Oh, so you got lost too then? Man, your teacher must be looking everywhere for you little guy."
+    
+    show tso prez tired at center
+    
+    Alexandra "What? I’m here to look for you."
+    
+    Alexandra "I’m Alexandra, and I’m one of the people in charge of the tour."
+    
+    Alexandra "I understand that you got a little lost, but we need to get back to the tour."
+    
+    Alexandra "I’ve got a meeting after this with Leadership, and I’m not really sure how they’d react if I was late to my first meeting as president."
+    
+    "president... alexandra... oh, oh no!"
+    
+    show tso food at center
+    
+    "This is not good. This is definitely not good. They’re going to kill me. This is gonna end up in the school paper."
+    
+    "Certainly."
+    
+    "And, at a school like this, who wouldn’t read it? I’m going to lose everything for misgendering the student body president. My life is over."
+    
+    Alexandra "Hello?"
+    
+    "No, wait, I just need to apologize somehow. Think, think, I need to come up with something."
+    
+    "I could make her food."
+    
+    "No, no time. Maybe a novelty gift?"
+    
+    "One that says, “I’m sorry I thought you were a fourteen year-old boy, and am now imagine you as a bowl of basically the chinese equivalent of buffalo wings! But hey, that’s in the past.” Like a puppy. "
+    
+    "No, that is not what puppies say. Maybe there’s something in the language of flowers for this..."
+    
+    Alexandra "Are you ok, my dude?"
+    
+    "That’s it, flowers! That’s what dad always gets mom when he screws up."
+    
+    "It sometimes works. "
+    
+    "Now, which would even work?... Carnations? Tulips? Roses?"
+    
+    "Man, dad has had to buy so many flowers I can’t remember... i can’t think, ... i can’t-"
+    
+    Alexandra "Is there something wrong?"
+    
+    Morgan "GAH, WHY ARE FLOWERS SO DAMN COMPLICATED!"
+    
+    Alexandra "I-"
+    
+    Alexandra "Do you need a moment?"
+    
+    Alexandra "..."
+    
+    Morgan "..."
+    
+    Alexandra "If you do it’s no problem really."
+    
+    Morgan "...no, no."
+    
+    Morgan "Let’s just forget that this ever happened."
+    
+    Alexandra "Good, because we really should be going."
+    
     #END OF DEMO BOIS
 
 
