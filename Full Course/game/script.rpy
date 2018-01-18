@@ -631,6 +631,220 @@ label cook1_done:
     show sausage day happy at center
     
     Nick "I will come by the restaurant!"
+    
+    #KITCHEN
+    #Morgan (V.O.): 
+    "Well, today could be going better. Definitely better, this is just so many dishes, how do we have so many dishes!? I’m not sure if it could have gone worse."
+    
+    #Morgan(V.O.):
+    "I mean, even if something bizarre had happened, like if I lost my pants or something, I would have just left at that point."
+    
+    #Δ1: 
+    "Being put on dishwasher duty kinda sucks but only working so many hours will leave time for class work, which is gonna start up soon I guess." 
+    
+    #Δ1: 
+    "At least, that’s what dad has been telling me. Didn’t think he ever had to start as a dishwasher, he’s such a good cook."
+    
+    #Δ2: 
+    "Ugh this is so fucking stupid. There is no way that dad was a dishwasher, ever. Bullshit. Now I’m stuck getting gross, pruney hands."
+    
+    #[Female sprite center]
+    Julie "Morgan, stop daydreaming and hurry up with those dishes already, you’re getting behind."
+    
+    Morgan "Hey, I just got most of these alright."
+    
+    Julie "Well I’ve got two big reservations leaving soon so after you get all of their dishes done I’m going to need your help moving tables around for Karaoke night."
+    
+    Morgan "Fine."
+    
+    #[hide female sprite]
+    
+    #Morgan (V.O.): 
+    "Work... is work I guess. I just don’t feel like it’s worth the effort really. But I need the money. They even said every so often I can cook if I behave. I’m always behaved!"
+    
+    #Morgan (V.O.)
+    "And, I’m gonna have to move again, ugh. Moving is always the worst, you leave all your memories and everything familiar, but I can’t stay, so yeah..."
+    
+    #[ding noise]
+    
+    "...the dishes are done. Well, I guess I should get to moving those tables around."
+    
+    #[transition to muffled voices, maybe some pop-y sounding music in the background]
+    
+    Morgan "Ok got the tables moved for you, I’ll be back to-"
+    
+    #[Aria sprite center]
+    #[music notes]
+    Aria "-Maked room wif me is to soon to saw if I’m glad im herre-"
+    
+    #Morgan (V.O.):
+    "It's some girl with fiery hair with blonde streaks and a complexion to match. Which, from the almost inaudible sounds she is making, is probably from drinking way too much."
+    
+    Morgan "The crazies are out in full force tonight, huh?"
+    
+    #[female sprite left Aria sprite right]
+    
+    Julie "Oh her? She’s just some dumb college student. She works across the street and comes here after her shift ends, gets hammered and sings on Karaoke nights."
+    
+    Julie "Alone."
+    
+    Julie "Kinda sad really."
+    
+    Aria "-CAUSE YOU AX FUR IT CaUSE you need SOME!-"
+    
+    Morgan "She’s not that bad. I mean, I’ve heard worse tonight."
+    
+    Julie "You just think she’s hot don’t you?"
+    
+    Morgan "Well, I can barely see her."
+    
+    Julie "Well, she can barely say a word let alone a full sentence and you think that she’s singing well?"
+    
+    Morgan "Putting a sentence together isn’t the only point of singing, sometimes you’re just trying to express a feeling or something."
+    
+    Julie "The feeling of intense queasiness brought about by one too many cocktails? Or five."
+    
+    Morgan "Well, there are other feelings there too. I just can’t put my finger on them."
+    
+    Julie "I think you’re just trying to start a fight for no reason again."
+    
+    Morgan "I think you’re getting too good at this. Alright, I’m taking off. Have fun with the rest of tonight’s drunks."
+    
+    Julie "I’ll try. No guarantees, but I’ll certainly try."
+
+    #7 ARIA CONTINUED
+    #coffee shop 
+    #[Aria center, neutral]
+    Aria "What’s your order?"
+    
+    Morgan "A large mocha and a muffin."
+    
+    #[happy]
+    Aria "Great, your order will be right out."
+    
+    Morgan "Thanks."
+    
+    #[hide Aria]
+    
+    #Morgan (V.O): 
+    "I’m glad I’ve got somewhere I can go for a bit of peace and quiet. Sometimes it’s nice to have a some time to myself. Take a break from all the crazy I’ve been dealing with lately."
+    
+    #Morgan (V.O):
+    "Gotta give myself a little breather before I have to head off to the campus, this coffee shop is tucked away enough that it doesn’t get too many customers."
+    
+    #Morgan (V.O.):
+    "Taking my breaks from work and school here will be some of the best parts of my day. Taking my breaks from Nick here are some of the best parts of my week."
+    
+    #[Nick center, happy]
+    Nick "Hello friend! Are you getting lunch?"
+    
+    Morgan "..."
+    
+    #[confused]
+    Nick "If you had listened to me earlier you would not be having this problem."
+    
+    Morgan "..."
+    
+    #[sad]
+    Nick "The advice of my grandmother is flawless see, never leave the house without your lunch."
+    
+    Morgan "What are you doing here?"
+    
+    #[neutral]
+    Nick "Oh, little sister called. She needed help moving things. She asked for you, but I am a strapping young gentleman, and thought I could do heavy moving."
+    
+    Morgan "So, you’re here because you were helping out my lazy sister at work across the street. Great."
+    
+    #[angry]
+    Nick "Do not insult sister. She is good beautiful girl."
+    
+    Morgan "Meat. Were you, hitting, on MY SISTER?!"
+    
+    #[confused]
+    Nick "I would never harm such a delicate flower."
+    
+    Morgan "OH IT IS ON NOW YOU YODELING SACK OF SH-"
+    
+    #[Aria left angry, Nick right]
+    Aria "HEY, YOU TWO, PIPE DOWN!"
+    
+    Morgan "Uh... dude’s trying to bang my sister..."
+    
+    Nick "I have no violent intentions!"
+    
+    Aria "I will throw you two out! This is not some kind of boxing ring, this is a coffee shop. Now you two calm down or take it outside, do I make myself clear?"
+    
+    #[neutral]
+    Nick "Yes, I am very calm. Always calm."
+    
+    #Morgan (V.O.):
+    "It’s my fault I overreacted. It's just this meathead is being a creep, on my little sister!"
+    
+    #Morgan (V.O.):
+    "and now I’m disrupting her work, even though there is like no one here to really disrupt."
+    
+    #Morgan (V.O.):
+    "i don’t know what to do..."
+    
+    Morgan "I!... i..."
+            
+    #[lasagna sprite]
+    
+    Morgan "I guess I’m sorry. I didn’t mean to cause an issue. Sorry for yelling. We’ll be going once my order’s out."
+    
+    Aria "Ok. You can stay if you want, just don’t both the other guests anymore than you have."
+    
+    #Morgan (V.O.): 
+    "But, there’s no one else here..."
+    
+    Morgan "Will do ma’am."
+    
+    #[happy]
+    Nick "We will do no bothering sing lady."
+    
+    Morgan "Sing?"
+    
+    #[neutral]
+    Nick "You do not recognize lady?"
+    
+    Morgan "Recognize what?"
+    
+    #[surprised]
+    Nick "She is at your place of work all the time. She is sing lady. You must at least remember her voice."
+    
+    Morgan "Well I hear her voice all the time, she works here, and I come here all the time. Though, come to think of it... are you the girl who was singing karaoke across the street last night?"
+    
+    Aria "..."
+    Aria "Listen here you-  How do you two know about that?"
+                                                             
+    #Morgan (V.O.):
+    "Should I not of said anything. Fuck, I totally shouldn’t of said anything. She is pissed."
+    
+    Morgan "Well, uh I work there and he... eats there a lot, he also just eats a lot in general. Why, whats wrong?"
+    
+    Nick "Yes, Grandmother always said never miss five meals a da-"
+    
+    Morgan "We’re over there a lot. Is what we’re trying to say."
+    
+    Aria "Ok, but you cannot tell anybody here about it. Or, just anyone in general, got it."
+    
+    Morgan "I can certainly do that. And nobody will be able to make heads or tails of whatever Arnie is saying anyway."
+    
+    #[angry]
+    Nick "He is not PROUD GERM-"
+    
+    Morgan "Whatever. Your secret is safe with us."
+    
+    Aria "Good. Now take your order and go."
+    
+    Morgan "But I thought you said we could stay?"
+    
+    Aria "GET OUT!"
+    
+    #Morgan (V.O.):
+    "How did I still manage to fuck it up with saucy girl, uh now I have to get to campus and hope that she isn’t going to be mad at me if I come back, I really like it there."
+
+
 
 
     #END OF DEMO BOIS
