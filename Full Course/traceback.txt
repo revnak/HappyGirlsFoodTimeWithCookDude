@@ -1,87 +1,33 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'kitchen resize.png'>:
-  File "game/script.rpy", line 41, in script
-    "All my life I’ve been told that the fastest way to a person’s heart is through their stomach. I find those cliche’ sayings stupid. But my dad has always lived by that cheesy old saying and I’ve never met a person more popular than him."
-  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
-    _window_show()
-  File "renpy/common/000window.rpy", line 60, in _window_show
-    renpy.with_statement(trans)
-IOError: Couldn't find file 'kitchen resize.png'.
+While running game code:
+  File "renpy/common/00start.rpy", line 179, in <module>
+    renpy.execute_default_statement(True)
+Exception: store.quick_menu is being given a default a second time.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 41, in script
-    "All my life I’ve been told that the fastest way to a person’s heart is through their stomach. I find those cliche’ sayings stupid. But my dad has always lived by that cheesy old saying and I’ve never met a person more popular than him."
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ast.py", line 590, in execute
-    statement_name("say")
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ast.py", line 43, in statement_name
-    i(name)
-  File "renpy/common/000window.rpy", line 98, in _window_auto_callback
-    _window_show()
-  File "renpy/common/000window.rpy", line 60, in _window_show
-    renpy.with_statement(trans)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\exports.py", line 1406, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 2123, in do_with
-    clear=clear)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 2916, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 1980, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 430, in renpy.display.render.render_screen (gen\renpy.display.render.c:6938)
-    rv = render(root, width, height, 0, 0)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\transition.py", line 360, in render
-    bottom = render(self.old_widget, width, height, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\layout.py", line 702, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2047)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\image.py", line 392, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\image.py", line 213, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3445)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2983)
-    rv = d.render(widtho, heighto, st, at)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\im.py", line 503, in render
-    texture = cache.get(self, texture=True)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\im.py", line 212, in get
-    surf = image.load()
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\im.py", line 553, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\loader.py", line 548, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'kitchen resize.png'.
+  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\main.py", line 487, in main
+    run(restart)
+  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\main.py", line 147, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\execution.py", line 761, in run_context
+    context.run()
+  File "C:/WINDOWS/system32/00start.rpyc", line 178, in script
+  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\python.py", line 1719, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00start.rpy", line 179, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\exports.py", line 3108, in execute_default_statement
+    i.set_default(start)
+  File "C:/WINDOWS/system32/screens.rpyc", line 266, in set_default
+Exception: store.quick_menu is being given a default a second time.
 
 Windows-8-6.2.9200
-Ren'Py 6.99.13.2919
+Ren'Py 6.99.12.4.2187
 Full Course 1.0

@@ -314,11 +314,12 @@ label school_done:
         
     #[Footsteps and Swinging Door sounds]
         
-            #3 NIKOLAUS INTRO
+#Scene 3 NIKOLAUS INTRO
+#######################################
 label sausage_intro:
     scene bg kitchen 
 
-    show Female at center
+    show female at center
     
     Julie "Hey, there’s this weird guy out there asking for a meatball menu? What should I tell him?"
     
@@ -332,9 +333,11 @@ label sausage_intro:
     
     #[door slams open]
     
-    #[Nick sprite left, Female sprite right]
+    hide female
+    show sausage day angry at left
+    show female at right
     
-    Nick "I DEMAND TO SEE THE CHEF!" #[angry]
+    Nick "I DEMAND TO SEE THE CHEF!"
     
     #Morgan (V.O):
     "Who does this man made mostly of fucking thick ass steaks with a fluffy yellow poof for hair want, well whatever it is I sure as hell don’t want to deal with it."
@@ -344,50 +347,66 @@ label sausage_intro:
     
     Morgan "I think he’s out back on a smoke break, big metal door, can’t miss it."
     
-    Nick "Thank you sir." #[neutral]
+    hide sausage day angry
+    show sausage day at left
     
-    #[Nick sprite hide, Female center]
+    Nick "Thank you sir."
+    
+    hide sausage day
+    hide female
+    show female at center
     
     Julie "We have a back door?"
     
     Morgan "There’s a door-"
     
-    Nick "WHY IS THIS ROOM SO COLD?!?" #[angry]
+    Nick "WHY IS THIS ROOM SO COLD?!?"
  
     Morgan "-it’s to the refrigerator. But it is a door and it is in the back."
     
-    #[Nick sprite left, Female sprite right]
+    show sausage day angry at left
+    hide female
+    show female at right
 
-    Nick "What is meaning of this! I just want to talk to the chef here!" #[angry]
+    Nick "What is meaning of this! I just want to talk to the chef here!" 
     
     Morgan "Well the other guy is handling smoked fish back there. I’ve done worse."
     
-    Nick "He said you were the chef!" #[angry]
+    Nick "He said you were the chef!" 
     
     Morgan "I am, so is he. We are both the chef, chefs. Sometimes there is more than one person that can satisfy the role."
     
     Morgan "For example, Julie is not the only person getting on my nerves today."
     
-    Nick "Why is there no authentic German cuisine on your menu!" #[angry]
+    Nick "Why is there no authentic German cuisine on your menu!" 
     
     Morgan "Because this is primarily an american family style restaurant."
     
-    Nick "Then why not have authentic German-" #[neutral]
+    hide sausage day angry
+    show sausage day at left
+    
+    Nick "Then why not have authentic German-" 
     
     Morgan "Because this is a good family style restaurant."
     
-    Nick "You didn’t even let me finish!" #[angry]
+    hide sausage day
+    show sausage day angry at left
+    
+    Nick "You didn’t even let me finish!"
     
     Morgan "Because it was going to be awful." 
     
-    Nick "HOW DARE YOU INSULT MY PROUD AND MAGNIFICENT CULTURE!?! YOU BACKWARDS AMERICANS THINK YOU KNOW EVERYTHING DON’T YOU!?!" #[angry]
+    Nick "HOW DARE YOU INSULT MY PROUD AND MAGNIFICENT CULTURE!?! YOU BACKWARDS AMERICANS THINK YOU KNOW EVERYTHING DON’T YOU!?!"
     
     #Morgan (V.O.): 
     "Why are we arguing about this, why can’t this guy just get that we don’t do food from germany, it's not that hard to understand."
     
     Morgan "I think I know how to make good food without grinding it into a flavourless paste. Or, do you think I have something already pickled, we don’t!"
     
-    Nick "Meatballs are not flavourless and not paste." #[angry]
+    Nick "Meatballs are not flavourless and not paste."
+    
+    hide sausage day angry
+    show sausage day happy at left
     
     Nick "They are a moist and bouncy! Also you can buy it can-" #[happy]
     
@@ -412,6 +431,8 @@ label sausage_intro:
     #Morgan (V.O.)
     "UGH whyarewestillarguingwhyarewestillarguing"
     
+    hide sausage day happy
+    show sausage food at left
     #[Nick sprite pops into sausage sprite]
     
     #Morgan (V.O.)
@@ -420,7 +441,7 @@ label sausage_intro:
     #Morgan (V.O.)
     "I should stop doing this, well at least it’s easier than dealing with this fucking meathead!"
     
-    #[Nick food sprite left, Male center, Female right]
+    show male at center
     
     Rob "What the hell is going on now?"
     
@@ -438,7 +459,9 @@ label sausage_intro:
     "I don’t want Rob to start yelling again. It always gets easier to get him going after he’s started."
     
     Morgan "Fine, fine I’ll make the paste-food!"
-    #[Clear Sprites]
+    
+    scene bg kitchen
+    
     #[INSERT FUCKING COOKING GAME]
 
 label cook1_start:
@@ -480,7 +503,9 @@ label cook1_note_1:
 
 
 label cook1_good:
-
+    
+    show sausage day happy at center
+    
     #Morgan (V.O.) (+):
     "He eyes his food for a few seconds and then shoves it into his meat hole with a audible omph, which quickly became a very light muffled crunch."
     "Then, going through the more tender beef inside the breaded exterior his eyes widen with a kind of overwhelming desire, and some nonsense of the PROUD GERMAN PEOPLE."
@@ -490,8 +515,11 @@ label cook1_good:
 
     Nick "OH MY THIS IS WUNDERBAR!" 
     jump cook1_done
-
+    
 label cook1_bad:
+    
+    show sausage day confused at center
+    
     #Morgan (V.O.)(-):
     "He looks at it very confused at the breaded fried beef steak lightly covered in gravy made from the steak. He dips the steak into the gravy then shoves it in his face with gusto."
 
@@ -508,8 +536,11 @@ label cook1_bad:
     
     Nick "OH MY, I see what you mean, I guess you have much different stuff than back home!"
 
-
 label cook1_done:
+    scene bg kitchen
+    
+    show sausage day confused at center
+    
     #Morgan (V.O.):
     "Why the fuck did he come back here, I was just about to quit for the day."
     
@@ -517,6 +548,8 @@ label cook1_done:
     
     Morgan " No that’s fine just doing my job really."
     
+    hide sausage day confused
+    show sausage day happy at center
     #[If we can, zoom Nick sprite in till it covers the scene]
     
     #Morgan (V.O.):
@@ -535,11 +568,14 @@ label cook1_done:
     
     Morgan "Yeah meathead, it was no problem. My boss was gonna get angry at me, and I would really enjoy keeping my job. Sadly it might end soon, I don’t know."
     
-    Nick "Oh?-" #[surprised]
+    hide sausage day happy
+    show sausage day surprised at center
+    
+    Nick "Oh?-" 
     
     Morgan "Well I need to get ready to leave, glad you enjoyed the meal."
     
-    #[Exit Nick Sprite]
+    hide sausage day surprised
     
     #Morgan (V.O.):
     "Finally, I can go! Just need to drop off my apron and grab my keys and shit."
@@ -630,9 +666,11 @@ label cook1_done:
     
     Nick "I will come by the restaurant!"
 
-#Scene 6
+#Scene 5 Aria introduction
 ##################################################
-    #KITCHEN
+
+label lasagna_intro_1:
+    scene bg kitchen
     #Morgan (V.O.): 
     "Well, today could be going better. Definitely better, this is just so many dishes, how do we have so many dishes!? I’m not sure if it could have gone worse."
     
@@ -648,7 +686,8 @@ label cook1_done:
     #Δ2: 
     "Ugh this is so fucking stupid. There is no way that dad was a dishwasher, ever. Bullshit. Now I’m stuck getting gross, pruney hands."
     
-    #[Female sprite center]
+    show female at center
+    
     Julie "Morgan, stop daydreaming and hurry up with those dishes already, you’re getting behind."
     
     Morgan "Hey, I just got most of these alright."
@@ -657,7 +696,7 @@ label cook1_done:
     
     Morgan "Fine."
     
-    #[hide female sprite]
+    hide female
     
     #Morgan (V.O.): 
     "Work... is work I guess. I just don’t feel like it’s worth the effort really. But I need the money. They even said every so often I can cook if I behave. I’m always behaved!"
@@ -673,7 +712,7 @@ label cook1_done:
     
     Morgan "Ok got the tables moved for you, I’ll be back to-"
     
-    #[Aria sprite center]
+    show lasagna work drunk at center
     #[music notes]
     Aria "-Maked room wif me is to soon to saw if I’m glad im herre-"
     
@@ -682,7 +721,9 @@ label cook1_done:
     
     Morgan "The crazies are out in full force tonight, huh?"
     
-    #[female sprite left Aria sprite right]
+    hide lasagna work drunk
+    show lasagna work drunk at right
+    show female at left
     
     Julie "Oh her? She’s just some dumb college student. She works across the street and comes here after her shift ends, gets hammered and sings on Karaoke nights."
     
@@ -926,6 +967,8 @@ label cook2_bad:
 
 #7 ARIA CONTINUED
 ########################################################
+label lasagna_intro_2:
+    scene bg cafe
     #coffee shop 
 label scene7
 
