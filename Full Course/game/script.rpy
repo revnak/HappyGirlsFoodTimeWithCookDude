@@ -877,7 +877,7 @@ label cook2_good:
     
     Diana "That is not what I- Thank you, uh bye. "
     
-    jump cook2_done
+    jump scene7
 
 label cook2_bad:
     show tiramisu food at center
@@ -922,22 +922,26 @@ label cook2_bad:
     
     Diana "Well charge my card and and be on my way."
     
-    jump cook2_done
+    jump scene7
 
 #7 ARIA CONTINUED
 ########################################################
     #coffee shop 
-    #[Aria center, neutral]
+label scene7
+
+    show lasagna work at center
+
     Aria "What’s your order?"
     
     Morgan "A large mocha and a muffin."
     
-    #[happy]
+    show lasagna work happy at center
+
     Aria "Great, your order will be right out."
     
     Morgan "Thanks."
     
-    #[hide Aria]
+    hide lasagna
     
     #Morgan (V.O): 
     "I’m glad I’ve got somewhere I can go for a bit of peace and quiet. Sometimes it’s nice to have a some time to myself. Take a break from all the crazy I’ve been dealing with lately."
@@ -948,37 +952,45 @@ label cook2_bad:
     #Morgan (V.O.):
     "Taking my breaks from work and school here will be some of the best parts of my day. Taking my breaks from Nick here are some of the best parts of my week."
     
-    #[Nick center, happy]
+    show sausage day happy at center
+
     Nick "Hello friend! Are you getting lunch?"
     
     Morgan "..."
     
-    #[confused]
+    show sausage day confused at center
+    
     Nick "If you had listened to me earlier you would not be having this problem."
     
     Morgan "..."
     
-    #[sad]
+    show sausage day sad at center
+    
     Nick "The advice of my grandmother is flawless see, never leave the house without your lunch."
     
     Morgan "What are you doing here?"
     
-    #[neutral]
+    show sausage day at center
+    
     Nick "Oh, little sister called. She needed help moving things. She asked for you, but I am a strapping young gentleman, and thought I could do heavy moving."
     
     Morgan "So, you’re here because you were helping out my lazy sister at work across the street. Great."
     
-    #[angry]
+    show sausage work angry at center
+    
     Nick "Do not insult sister. She is good beautiful girl."
     
     Morgan "Meat. Were you, hitting, on MY SISTER?!"
     
-    #[confused]
+    show sausage day confused at center
+    
     Nick "I would never harm such a delicate flower."
     
     Morgan "OH IT IS ON NOW YOU YODELING SACK OF SH-"
     
-    #[Aria left angry, Nick right]
+    show lasagna work angry at left
+    show sausage day confused at right
+    
     Aria "HEY, YOU TWO, PIPE DOWN!"
     
     Morgan "Uh... dude’s trying to bang my sister..."
@@ -987,7 +999,7 @@ label cook2_bad:
     
     Aria "I will throw you two out! This is not some kind of boxing ring, this is a coffee shop. Now you two calm down or take it outside, do I make myself clear?"
     
-    #[neutral]
+    show sausage day at right
     Nick "Yes, I am very calm. Always calm."
     
     #Morgan (V.O.):
@@ -1001,7 +1013,7 @@ label cook2_bad:
     
     Morgan "I!... i..."
             
-    #[lasagna sprite]
+    show lasagna food at left
     
     Morgan "I guess I’m sorry. I didn’t mean to cause an issue. Sorry for yelling. We’ll be going once my order’s out."
     
@@ -1012,17 +1024,17 @@ label cook2_bad:
     
     Morgan "Will do ma’am."
     
-    #[happy]
+    show sausage day happy at right
     Nick "We will do no bothering sing lady."
     
     Morgan "Sing?"
     
-    #[neutral]
+    show sausage day at right
     Nick "You do not recognize lady?"
     
     Morgan "Recognize what?"
     
-    #[surprised]
+    show sausage day surprised at right
     Nick "She is at your place of work all the time. She is sing lady. You must at least remember her voice."
     
     Morgan "Well I hear her voice all the time, she works here, and I come here all the time. Though, come to think of it... are you the girl who was singing karaoke across the street last night?"
@@ -1043,7 +1055,7 @@ label cook2_bad:
     
     Morgan "I can certainly do that. And nobody will be able to make heads or tails of whatever Arnie is saying anyway."
     
-    #[angry]
+    show sausage day angry at right
     Nick "He is not PROUD GERM-"
     
     Morgan "Whatever. Your secret is safe with us."
