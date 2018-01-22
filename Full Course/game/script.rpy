@@ -686,7 +686,8 @@ label lasagna_intro_1:
     #Δ2: 
     "Ugh this is so fucking stupid. There is no way that dad was a dishwasher, ever. Bullshit. Now I’m stuck getting gross, pruney hands."
     
-    #[Female sprite center]
+    show female at center
+    
     Julie "Morgan, stop daydreaming and hurry up with those dishes already, you’re getting behind."
     
     Morgan "Hey, I just got most of these alright."
@@ -695,7 +696,7 @@ label lasagna_intro_1:
     
     Morgan "Fine."
     
-    #[hide female sprite]
+    hide female
     
     #Morgan (V.O.): 
     "Work... is work I guess. I just don’t feel like it’s worth the effort really. But I need the money. They even said every so often I can cook if I behave. I’m always behaved!"
@@ -711,7 +712,7 @@ label lasagna_intro_1:
     
     Morgan "Ok got the tables moved for you, I’ll be back to-"
     
-    #[Aria sprite center]
+    show lasagna work drunk at center
     #[music notes]
     Aria "-Maked room wif me is to soon to saw if I’m glad im herre-"
     
@@ -720,7 +721,9 @@ label lasagna_intro_1:
     
     Morgan "The crazies are out in full force tonight, huh?"
     
-    #[female sprite left Aria sprite right]
+    hide lasagna work drunk
+    show lasagna work drunk at right
+    show female at left
     
     Julie "Oh her? She’s just some dumb college student. She works across the street and comes here after her shift ends, gets hammered and sings on Karaoke nights."
     
