@@ -22,6 +22,16 @@ image bg school = "school.png"
 image bg app = "apartment.png"
 image bg cafe = "cafe.png"
 
+#Define Audio Files
+define audio.morgan = "audio/Comic Hero.mp3"
+define audio.title = "audio/Delightful D.mp3"
+define audio.general = "audio/Doobly Doo.mp3"
+define audio.minigame = "audio/Jaunty Gumption.mp3"
+define audio.diana = "audio/Jesu.mp3"
+define audio.alexandra = "audio/Master of the Feast.mp3"
+define audio.nick = "audio/MeatBall Parade.mp3"
+define audio.aria = "audio/Mighty Like Us.mp3"
+
 #Declare sprite images
 image lasagna work = "lasagna work.png"
 image lasagna work angry = "lasagna work angry.png"
@@ -89,7 +99,7 @@ label start:
     #1 INTRODUCTION START
 label intro:
     scene bg kitchen 
-    #bg Kitchen
+    play music morgan fadeout 1
     
 
     #Morgan(V.O.): 
@@ -143,6 +153,8 @@ label intro:
     Morgan "OOORDER UP!"
     
     show female at center
+    
+    play music general fadeout 1
     
     Julie "You do know we have a bell for a reason, right?"
     
@@ -337,6 +349,8 @@ label sausage_intro:
     show sausage day angry at left
     show female at right
     
+    play music nick fadeout 1
+    
     Nick "I DEMAND TO SEE THE CHEF!"
     
     #Morgan (V.O):
@@ -462,6 +476,8 @@ label sausage_intro:
     
     scene bg kitchen
     
+    play music minigame fadeout 1
+    
     #[INSERT FUCKING COOKING GAME]
 
 label cook1_start:
@@ -504,6 +520,8 @@ label cook1_note_1:
 
 label cook1_good:
     
+    play music nick fadeout 1
+    
     show sausage day happy at center
     
     #Morgan (V.O.) (+):
@@ -517,6 +535,8 @@ label cook1_good:
     jump cook1_done
     
 label cook1_bad:
+    
+    play music nick fadeout 1
     
     show sausage day confused at center
     
@@ -671,6 +691,8 @@ label cook1_done:
 
 label lasagna_intro_1:
     scene bg kitchen
+    play music morgan fadeout 1
+    
     #Morgan (V.O.): 
     "Well, today could be going better. Definitely better, this is just so many dishes, how do we have so many dishes!? I’m not sure if it could have gone worse."
     
@@ -687,6 +709,7 @@ label lasagna_intro_1:
     "Ugh this is so fucking stupid. There is no way that dad was a dishwasher, ever. Bullshit. Now I’m stuck getting gross, pruney hands."
     
     show female at center
+    play music general fadeout 1
     
     Julie "Morgan, stop daydreaming and hurry up with those dishes already, you’re getting behind."
     
@@ -778,6 +801,8 @@ label tiramisu_intro:
     
     hide female
     hide male
+    show tiramisu day disgust at center
+    play music diana fadeout 1
     
     "oh my god. why is she- why is this happening."
     
@@ -786,8 +811,6 @@ label tiramisu_intro:
     Morgan "Hello, I’m Morgan, I was told that you wanted to see me?"
     
     "This girl? Whaa, she’s got dark skin and blonde hair? Does she like dye it, or does she like tan... a lot? Her clothes are also probably designer. What could she possibly want with me??"
-    
-    show tiramisu day disgust at center
     
     Diana "Yeah. Although, I can’t say I’m very impressed."
     
@@ -845,6 +868,7 @@ label tiramisu_intro:
     
 ################ FILL OUT TEXT HERE WITH PROPER ENTRIES #######################
 label cook2_start:
+    play music minigame fadeout 1
     menu:
         "Caprese Salad":
             jump cook2_food_1
@@ -884,6 +908,7 @@ label cook2_note_1:
 
 label cook2_good:
     show tiramisu food at center
+    play music diana fadeout 1
     
     "She eyes the salad with a gleam of approval, which is a nice change from the slight disapproving look she was giving off earlier."
     
@@ -922,6 +947,7 @@ label cook2_good:
 
 label cook2_bad:
     show tiramisu food at center
+    play music diana fadeout 1
     
     Morgan "Well this is what I could whip up for you."
     
@@ -968,11 +994,13 @@ label cook2_bad:
 #7 ARIA CONTINUED
 ########################################################
 label lasagna_intro_2:
+    label scene7:
     scene bg cafe
     #coffee shop 
-label scene7
+
 
     show lasagna work at center
+    play music aria fadeout 1
 
     Aria "What’s your order?"
     
@@ -985,6 +1013,7 @@ label scene7
     Morgan "Thanks."
     
     hide lasagna
+    play music morgan fadeout 1
     
     #Morgan (V.O): 
     "I’m glad I’ve got somewhere I can go for a bit of peace and quiet. Sometimes it’s nice to have a some time to myself. Take a break from all the crazy I’ve been dealing with lately."
@@ -996,6 +1025,7 @@ label scene7
     "Taking my breaks from work and school here will be some of the best parts of my day. Taking my breaks from Nick here are some of the best parts of my week."
     
     show sausage day happy at center
+    play music nick fadeout 1
 
     Nick "Hello friend! Are you getting lunch?"
     
@@ -1019,7 +1049,7 @@ label scene7
     
     Morgan "So, you’re here because you were helping out my lazy sister at work across the street. Great."
     
-    show sausage work angry at center
+    show sausage angry at center
     
     Nick "Do not insult sister. She is good beautiful girl."
     
@@ -1033,6 +1063,7 @@ label scene7
     
     show lasagna work angry at left
     show sausage day confused at right
+    play music aria fadeout 1
     
     Aria "HEY, YOU TWO, PIPE DOWN!"
     
@@ -1118,6 +1149,7 @@ label tso_intro:
     scene bg school
     
     show female at center
+    play music morgan fadeout 1
     
     Guide "...on your left you’ll see the Student Union. You can get yourself something to eat there, get a new student ID…"
     
@@ -1172,6 +1204,7 @@ label tso_intro:
     Morgan "Thanks!"
     
     hide male
+    play music morgan fadeout 1
     
     "A strong concrete building, must house some pretty powerful equipment."
     
@@ -1182,6 +1215,7 @@ label tso_intro:
     "So this is what culinary school is going to look like. Man, these guys have everything."
     
     show tso prez worried at center
+    play music alexandra fadeout 1
     
     Alexandra "Hello? Are you by chance with the tour?"
     
