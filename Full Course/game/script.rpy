@@ -17,10 +17,14 @@ define Jogstudent = Character("Jogging Student")
 define Alexandra = Character("Alexandra")
 
 # Declare background images
-image bg kitchen = "kitchen resize.png"
+image bg kitchen = "kitchen.png"
 image bg school = "school.png"
 image bg app = "apartment.png"
 image bg cafe = "cafe.png"
+image bg dorm = "Dorm.png"
+image bg indkitchen = "industrial-kitchen.png"
+image bg resttables = "restaurant-tables.png"
+
 
 #Declare sprite images
 image lasagna work = "lasagna work.png"
@@ -582,7 +586,7 @@ label cook1_done:
     
 #Scene 4
 ##################################################
-    scene bg kitchen
+    scene bg resttables
 
     "Still pretty warm outside at least. Ugh, now I’ve got to handle where to live, I heard college helps with that."
     
@@ -670,7 +674,7 @@ label cook1_done:
 ##################################################
 
 label lasagna_intro_1:
-    scene bg kitchen
+    scene bg resttables
     #Morgan (V.O.): 
     "Well, today could be going better. Definitely better, this is just so many dishes, how do we have so many dishes!? I’m not sure if it could have gone worse."
     
@@ -779,6 +783,8 @@ label tiramisu_intro:
     hide female
     hide male
     
+    scene bg resttables
+    
     "oh my god. why is she- why is this happening."
     
     "there’s a girl calling me over to her table?"
@@ -844,6 +850,7 @@ label tiramisu_intro:
     Morgan "I think I can whip up something for you. Be right back!"
     
 ################ FILL OUT TEXT HERE WITH PROPER ENTRIES #######################
+    scene bg kitchen
 label cook2_start:
     menu:
         "Caprese Salad":
@@ -883,6 +890,7 @@ label cook2_note_1:
 
 
 label cook2_good:
+    scene bg resttables
     show tiramisu food at center
     
     "She eyes the salad with a gleam of approval, which is a nice change from the slight disapproving look she was giving off earlier."
@@ -921,6 +929,7 @@ label cook2_good:
     jump scene7
 
 label cook2_bad:
+    scene bg resttables
     show tiramisu food at center
     
     Morgan "Well this is what I could whip up for you."
@@ -968,9 +977,10 @@ label cook2_bad:
 #7 ARIA CONTINUED
 ########################################################
 label lasagna_intro_2:
+    label scene7:
     scene bg cafe
     #coffee shop 
-label scene7
+
 
     show lasagna work at center
 
@@ -1178,6 +1188,7 @@ label tso_intro:
     "Also has windows on the top, maybe for more office type rooms. Do they have... Specialty business classes for restaurants!?!"
     
     # BG CLASSROOM HERE###################
+    scene bg indkitchen
     
     "So this is what culinary school is going to look like. Man, these guys have everything."
     

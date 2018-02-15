@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-The label intro is defined twice, at
-  File "game/script.rpy", line 90 and
-  File "game/script.rpy", line 233.
+File "game/script.rpy", line 982: expected ':' not found.
+    label scene7
+                ^
 
-Ren'Py Version: Ren'Py 6.99.13.2919
+Ren'Py Version: Ren'Py 6.99.12.4.2187
