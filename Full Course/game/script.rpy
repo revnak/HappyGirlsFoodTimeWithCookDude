@@ -17,13 +17,13 @@ define Jogstudent = Character("Jogging Student")
 define Alexandra = Character("Alexandra")
 
 # Declare background images
-image bg kitchen = "kitchen.png"
-image bg school = "school.png"
-image bg app = "apartment.png"
-image bg cafe = "cafe.png"
-image bg dorm = "Dorm.png"
-image bg indkitchen = "industrial-kitchen.png"
-image bg resttables = "restaurant-tables.png"
+image bg kitchen = im.Scale("kitchen.png", 1280, 720)
+image bg school = im.Scale("school.png", 1280, 720)
+image bg app = im.Scale("apartment.png", 1280, 720)
+image bg cafe = im.Scale("cafe.png", 1280, 720)
+image bg dorm = im.Scale("Dorm.png", 1280, 720)
+image bg indkitchen = im.Scale("industrial-kitchen.png", 1280, 720)
+image bg resttables = im.Scale("restaurant-tables.png", 1280, 720)
 
 
 #Define Audio Files
