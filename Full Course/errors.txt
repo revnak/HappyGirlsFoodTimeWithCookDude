@@ -2,7 +2,11 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/script.rpy", line 982: expected ':' not found.
+=======
+File "game/script.rpy", line 1000: expected ':' not found.
+>>>>>>> origin/master
     label scene7
                 ^
 
