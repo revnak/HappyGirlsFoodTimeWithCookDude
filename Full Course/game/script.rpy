@@ -76,6 +76,16 @@ transform center:
 transform right:
         xalign 1.0
         yalign .05
+#Food positions
+transform foodleft:
+        xalign 0
+        yalign .5        
+transform foodcenter:
+        xalign .5
+        yalign .5
+transform foodright:
+        xalign 1.0
+        yalign .5
 
 label start:
     
@@ -450,7 +460,7 @@ label sausage_intro:
     "UGH whyarewestillarguingwhyarewestillarguing"
     
     hide sausage day happy
-    show sausage food at left
+    show sausage food at foodleft
     #[Nick sprite pops into sausage sprite]
     
     #Morgan (V.O.)
@@ -694,13 +704,8 @@ label cook1_done:
 ##################################################
 
 label lasagna_intro_1:
-<<<<<<< HEAD
     scene bg resttables
-=======
-    scene bg kitchen
     play music morgan fadeout 1
-    
->>>>>>> origin/master
     #Morgan (V.O.): 
     "Well, today could be going better. Definitely better, this is just so many dishes, how do we have so many dishes!? I’m not sure if it could have gone worse."
     
@@ -866,7 +871,7 @@ label tiramisu_intro:
     
     "I guess i could... hmmm..."
     
-    show tiramisu food at center
+    show tiramisu food at foodcenter
     
     "That’s better I guess. It’s just so luxurious on the palette. A garnish is common but the topping works all on its own."
     
@@ -919,7 +924,7 @@ label cook2_note_1:
 
 label cook2_good:
     scene bg resttables
-    show tiramisu food at center
+    show tiramisu food at foodcenter
     play music diana fadeout 1
     
     "She eyes the salad with a gleam of approval, which is a nice change from the slight disapproving look she was giving off earlier."
@@ -959,7 +964,7 @@ label cook2_good:
 
 label cook2_bad:
     scene bg resttables
-    show tiramisu food at center
+    show tiramisu food at foodcenter
     play music diana fadeout 1
     
     Morgan "Well this is what I could whip up for you."
@@ -1100,7 +1105,7 @@ label lasagna_intro_2:
     
     Morgan "I!... i..."
             
-    show lasagna food at left
+    show lasagna food at foodleft
     
     Morgan "I guess I’m sorry. I didn’t mean to cause an issue. Sorry for yelling. We’ll be going once my order’s out."
     
@@ -1303,7 +1308,7 @@ label tso_intro:
     
     "president... alexandra... oh, oh no!"
     
-    show tso food at center
+    show tso food at foodcenter
     
     "This is not good. This is definitely not good. They’re going to kill me. This is gonna end up in the school paper."
     

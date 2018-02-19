@@ -2,12 +2,16 @@
 errors listed below, and try again.
 
 
-<<<<<<< HEAD
-File "game/script.rpy", line 982: expected ':' not found.
-=======
-File "game/script.rpy", line 1000: expected ':' not found.
->>>>>>> origin/master
-    label scene7
+File "game/script.rpy", line 697: expected statement.
+    <<<<<<< HEAD
                 ^
+
+File "game/script.rpy", line 699: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 703: expected statement.
+    >>>>>>> origin/master
+                         ^
 
 Ren'Py Version: Ren'Py 6.99.12.4.2187
