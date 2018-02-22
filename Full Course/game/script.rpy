@@ -569,7 +569,7 @@ label cook1_bad:
 
     "Now to let if crisp up on one side, then flip it over and get the other. Now to take that out and start that thick gravy that customers always come back for."
 
-    "Just need to add some flour and little more oil into the pan with all the greasy bits left over from the steak. Mix it arounnd, and once it reaches a paste like consistency add a little milk."
+    "Just need to add some flour and little more oil into the pan with all the greasy bits left over from the steak. Mix it around, and once it reaches a paste like consistency add a little milk."
 
     "Add in some salt and a bunch of pepper just need to whisk-whisk away until it thickens up. Finally I just need to spread that gravy all over that chickened steak! Serve with a side of fries."
 
