@@ -533,7 +533,20 @@ label cook1_note_1:
 
 
 label cook1_good:
-    
+    "Ok so to start I need to lay down a piece of plastic wrap down big enough to also cover the top of the pork chop then lay the chop down and fold plastic over."
+
+    "Then I got to take the flat wide meat.. mallet to the chop hitting in the middle pressing towards the outside. Give it a couple goes and tada, perfectly pounded meat!"
+
+    "Now that we got the meat pounded but clearly not to the level of paste, I gotta get the things for the breading. I got flour, eggs beaten with a splash of milk and lastly breadcrumbs with parsley and some seasoning salt." 
+
+    "First for making an excellent crust is to coat the chop in flour, then egg wash, bread crumbs, back into the egg and a final dose of breadcrumbs. Need to press into the meat to get the breading to really stick to the meat." 
+
+    "Now onto the frying, gotta get one of the large frying pans and heat some oil in it. Put that meat in for a few minutes on the first side then flip. Now i gotta just a couple chunks of butter to bring some richness to the crust."
+
+    "Just a few minutes in there and it is ready to plate! Take some cucumber salad we have in the fridge and garnish the meat with a lemon wedge."
+
+    "Order up!"
+
     play music nick fadeout 1
     
     show sausage day happy at center
@@ -550,6 +563,16 @@ label cook1_good:
     
 label cook1_bad:
     
+    "I first need to grab some cubed steak from the fridge. Season it with salt, pepper, cayenne, and paprika."
+
+    "Now we do the double dredge. Coat it in flour, then some lightly beaten egg because its best to have an uneven kind of crust to it, and then back into the flour. Then take a skillet with some oil turn up the heat."
+
+    "Now to let if crisp up on one side, then flip it over and get the other. Now to take that out and start that thick gravy that customers always come back for."
+
+    "Just need to add some flour and little more oil into the pan with all the greasy bits left over from the steak. Mix it arounnd, and once it reaches a paste like consistency add a little milk."
+
+    "Add in some salt and a bunch of pepper just need to whisk-whisk away until it thickens up. Finally I just need to spread that gravy all over that chickened steak! Serve with a side of fries."
+
     play music nick fadeout 1
     
     show sausage day confused at center
@@ -894,7 +917,7 @@ label cook2_start:
             jump cook2_notes
             
 label cook2_food_1:
-    "Caprese Salad- "
+    "Caprese salad, elegant stack of basil, cheese, and tomato, and surprisingly little salad."
     menu:
         "Prepare this?":
             jump cook2_good
@@ -902,7 +925,7 @@ label cook2_food_1:
             jump cook2_start
 
 label cook2_food_2:
-    "Spaghetti- "
+    "Spaghetti, it's a tomato sauce with ground beef over... spaghetti. Pretty standard for the restaurant."
     menu:
         "Prepare this?":
             jump cook2_bad
@@ -923,6 +946,19 @@ label cook2_note_1:
 
 
 label cook2_good:
+    scene bg kitchen
+    "First start with the balsamic reduction, that can stay out a bit after cooking. Take a cup of balsamic and a few tablespoons of sugar on medium just wait a bit for that to boil and reduce down."
+
+    "Need to take some fresh mozzarella, if it's not really high quality it really shows because it is the center focus of the dish, even if we add shrimp." 
+
+    "Cut it into equal portions, almost like large thick cheese coins. Then slice up the tomato." 
+
+    "Now we assemble it into two lines, alternating between tomato, mozzarella, and basil, until it goes nearly from one side of the plate to the other."
+
+    "Now that I think about it I could pair this really well with some shrimp, just need something that ties them together, basil. I can finely dice up some basil and garlic to put with the shrimp in some olive oil." 
+
+    "Just a bit on each side should do nicely, just need to make sure that it’s not overcooked or it’ll turn out tough. Line them up in the middle, and order up!"
+
     scene bg resttables
     show tiramisu food at foodcenter
     play music diana fadeout 1
@@ -963,6 +999,19 @@ label cook2_good:
     jump scene7
 
 label cook2_bad:
+    scene bg kitchen
+    "First we need to brown up some meat, crank up that pan up."
+
+    "While thats going start with some spaghetti noodles into a pot with water and a dash of salt. And by that time the sauce is done."
+
+    "Now that that its on its way to brown town gotta put in a few tablespoons of diced onion and a clove of garlic then let that go for a while longer."
+
+    "Now that it's ready I can put in the sauce, just need to take dad’s homemade sauce which has the three levels of tomato, diced, puree, and crushed, with various herbs and spices."
+
+    "It's mostly oregano and basil with some other stuff that he really likes in there. Probably more garlic."
+
+    "Heat it up with the meat and pour that delicious sludge over the pasta. Order up!"
+
     scene bg resttables
     show tiramisu food at foodcenter
     play music diana fadeout 1
