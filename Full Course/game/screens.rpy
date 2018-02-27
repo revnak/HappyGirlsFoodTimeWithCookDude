@@ -296,17 +296,17 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            imagebutton auto "gui/button/start_%s.png" focus_mask True action Start()
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            imagebutton auto "gui/button/history_%s.png" focus_mask True action ShowMenu("history")
 
-            textbutton _("Save") action ShowMenu("save")
+            imagebutton auto "gui/button/save_%s.png" focus_mask True action ShowMenu("save")
 
-        textbutton _("Load") action ShowMenu("load")
+        imagebutton auto "gui/button/load_%s.png" focus_mask True action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        imagebutton auto "gui/button/pref_%s.png" focus_mask True action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -314,17 +314,15 @@ screen navigation():
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
-
-        textbutton _("About") action ShowMenu("about")
+            imagebutton auto "gui/button/main_%s.png" focus_mask True action MainMenu()
 
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            imagebutton auto "gui/button/help_%s.png" focus_mask True action ShowMenu("help")
 
             ## The quit button is banned on iOS and unnecessary on Android.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            imagebutton auto "gui/button/quit_%s.png" focus_mask True action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -462,10 +460,12 @@ screen game_menu(title, scroll=None):
 
     use navigation
 
-    textbutton _("Return"):
-        style "return_button"
+#    textbutton _("Return"):
+#        style "return_button"
+#
+#        action Return()
 
-        action Return()
+    imagebutton auto "gui/button/return_%s.png" focus_mask True action Return()
 
     label title
 

@@ -91,7 +91,6 @@ define gui.game_menu_background = "gui/game_menu.png"
 ## Should we show the name and version of the game?
 define gui.show_name = False
 
-
 ## Dialogue ####################################################################
 ##
 ## These variables control how dialogue is displayed on the screen one line at a

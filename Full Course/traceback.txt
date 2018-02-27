@@ -1,70 +1,77 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'kitchen resize.png'>:
-IOError: Couldn't find file 'kitchen resize.png'.
+While running game code:
+  File "game/screens.rpy", line 348, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 348, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 363, in execute
+    use navigation
+  File "game/screens.rpy", line 287, in execute
+    screen navigation():
+  File "game/screens.rpy", line 287, in execute
+    screen navigation():
+  File "game/screens.rpy", line 289, in execute
+    vbox:
+  File "game/screens.rpy", line 297, in execute
+    if main_menu:
+  File "game/screens.rpy", line 300, in execute
+    imagebutton auto "/game/gui/button/start_%s.png" focus_mask True action Start()
+Exception: Imagebutton does not have a idle image. (auto=u'/game/gui/button/start_%s.png').
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:/WINDOWS/system32/script.rpyc", line 75, in script
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\ast.py", line 1459, in execute
-    choice = renpy.exports.menu(choices, self.set)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\exports.py", line 847, in menu
-    rv = renpy.store.menu(items)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\exports.py", line 1033, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\ui.py", line 285, in interact
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+    python hide:
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in <module>
+    ui.interact()
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ui.py", line 287, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 2553, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2883, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1955, in draw_screen
-    renpy.config.screen_height,
-  File "renpy/display/render.pyx", line 427, in renpy.display.render.render_screen (gen\renpy.display.render.c:6806)
-    rv = render(root, width, height, 0, 0)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 693, in render
-    surf = render(child, width, height, cst, cat)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "renpy/display/accelerator.pyx", line 108, in renpy.display.accelerator.transform_render (gen\renpy.display.accelerator.c:2027)
-    cr = render(child, widtho, heighto, st - self.child_st_base, at)
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\image.py", line 387, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\image.py", line 208, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "renpy/display/render.pyx", line 110, in renpy.display.render.render (gen\renpy.display.render.c:3440)
-    cpdef render(d, object widtho, object heighto, double st, double at):
-  File "renpy/display/render.pyx", line 196, in renpy.display.render.render (gen\renpy.display.render.c:2978)
-    rv = d.render(widtho, heighto, st, at)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\im.py", line 473, in render
-    im = cache.get(self)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\im.py", line 200, in get
-    surf = image.load()
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\display\im.py", line 524, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\Joshua\Desktop\IMPORTANT SCREENSHOTS\New folder\renpy-6.99.12.4-sdk\renpy\loader.py", line 543, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'kitchen resize.png'.
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 2821, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 495, in visit_all
+    d.visit_all(callback)
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 495, in visit_all
+    d.visit_all(callback)
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 495, in visit_all
+    d.visit_all(callback)
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\screen.py", line 401, in visit_all
+    callback(self)
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\core.py", line 2821, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\screen.py", line 411, in per_interact
+    self.update()
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\display\screen.py", line 580, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 348, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 348, in execute
+    screen main_menu():
+  File "game/screens.rpy", line 363, in execute
+    use navigation
+  File "game/screens.rpy", line 287, in execute
+    screen navigation():
+  File "game/screens.rpy", line 287, in execute
+    screen navigation():
+  File "game/screens.rpy", line 289, in execute
+    vbox:
+  File "game/screens.rpy", line 297, in execute
+    if main_menu:
+  File "game/screens.rpy", line 300, in execute
+    imagebutton auto "/game/gui/button/start_%s.png" focus_mask True action Start()
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ui.py", line 926, in _imagebutton
+    idle = choice(idle, idle_image, "idle", required=True)
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ui.py", line 920, in choice
+    raise Exception("Imagebutton does not have a %s image. (auto=%r)." % (name, auto))
+Exception: Imagebutton does not have a idle image. (auto=u'/game/gui/button/start_%s.png').
 
 Windows-8-6.2.9200
-Ren'Py 6.99.12.4.2187
+Ren'Py 6.99.13.2919
 Full Course 1.0
