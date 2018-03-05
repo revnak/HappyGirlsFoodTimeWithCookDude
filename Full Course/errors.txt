@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 468: u'return_button' is not a keyword argument or valid child for the screen statement.
-    return_button imagebutton auto "gui/button/return_%s.png" focus_mask True action Return()
-                 ^
+File "game/screens.rpy", line 295: expected a keyword argument or end of line.
+    spacing gui.navigation_spacing = 5
+                                   ^
 
 Ren'Py Version: Ren'Py 6.99.13.2919

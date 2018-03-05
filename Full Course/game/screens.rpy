@@ -299,13 +299,13 @@ screen navigation():
             imagebutton auto "gui/button/start_%s.png" focus_mask True action Start()
 
         else:
-
-            imagebutton auto "gui/button/history_%s.png" focus_mask True action ShowMenu("history")
+            
+            #imagebutton auto "gui/button/history_%s.png" focus_mask True action ShowMenu("history")
 
             imagebutton auto "gui/button/save_%s.png" focus_mask True action ShowMenu("save")
 
         imagebutton auto "gui/button/load_%s.png" focus_mask True action ShowMenu("load")
-
+        
         imagebutton auto "gui/button/pref_%s.png" focus_mask True action ShowMenu("preferences")
 
         if _in_replay:
@@ -317,9 +317,10 @@ screen navigation():
             imagebutton auto "gui/button/main_%s.png" focus_mask True action MainMenu()
 
         if renpy.variant("pc"):
-
-            ## Help isn't necessary or relevant to mobile devices.
-            imagebutton auto "gui/button/help_%s.png" focus_mask True action ShowMenu("help")
+            
+            if main_menu:
+                ## Help isn't necessary or relevant to mobile devices.
+                imagebutton auto "gui/button/help_%s.png" focus_mask True action ShowMenu("help")
 
             ## The quit button is banned on iOS and unnecessary on Android.
             imagebutton auto "gui/button/quit_%s.png" focus_mask True action Quit(confirm=not main_menu)
@@ -379,7 +380,7 @@ style main_menu_frame:
     xsize 280
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    #Here is where code to put a background behind the menu buttons would go
 
 style main_menu_vbox:
     xalign 1.0
@@ -465,9 +466,11 @@ screen game_menu(title, scroll=None):
 #
 #        action Return()
 
-    imagebutton auto "gui/button/return_%s.png" focus_mask True action Return()
+    imagebutton auto "gui/button/return_%s.png" focus_mask True action Return():
+        style "return_button"
 
-    label title
+    label title:
+        xpos 350
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
@@ -520,9 +523,9 @@ style game_menu_label_text:
     yalign 0.5
 
 style return_button:
-    xpos gui.navigation_xpos
+    xpos 36
     yalign 1.0
-    yoffset -30
+    yoffset -70
 
 
 ## About screen ################################################################
