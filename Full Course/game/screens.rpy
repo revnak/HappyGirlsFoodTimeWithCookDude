@@ -468,7 +468,7 @@ screen game_menu(title, scroll=None):
 
     imagebutton auto "gui/button/return_%s.png" focus_mask True action Return():
         style "return_button"
-
+        ypos 783
     label title:
         xpos 350
 
