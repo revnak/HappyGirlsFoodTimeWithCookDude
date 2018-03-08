@@ -69,13 +69,13 @@ image male = "silhouette male.png"
 #Declare sprite positions
 transform left:
         xalign 0
-        yalign .05        
+        yalign -.1        
 transform center:
         xalign .5
-        yalign .05
+        yalign -.1
 transform right:
         xalign 1.0
-        yalign .05
+        yalign -.1
 #Food positions
 transform foodleft:
         xalign 0
@@ -527,7 +527,7 @@ label cook1_notes:
             jump cook1_start
     
 label cook1_note_1:
-    "This guy seems to like German food. I should probably make him something German"
+    "This guy seems to like German food. I should probably make him something German."
     jump cook1_notes
 
 
@@ -837,10 +837,10 @@ label tiramisu_intro:
     
     hide female
     hide male
-    show tiramisu day disgust at center
     play music diana fadeout 1
     
     scene bg resttables
+    show tiramisu day disgust at center
     
     "oh my god. why is she- why is this happening."
     
