@@ -65,6 +65,7 @@ image tso food = "tso food.png"
 
 image female = "silhouette female.png"
 image male = "silhouette male.png"
+image food = "silhouette food.png"
 
 #Declare sprite positions
 transform left:
@@ -243,7 +244,8 @@ label intro:
     #Morgan(V.O.):
     "letmeleaveletmeleaveLETMELEAVELETMELEA-"
     
-    #[ROB turns into food sprite, with playful pop sound]
+    hide male
+    show food at foodright
     
     #Morgan(V.O.):
     "Why does this always make me feel better? What was I doing? Oh, right. I have to go talk to dad."
