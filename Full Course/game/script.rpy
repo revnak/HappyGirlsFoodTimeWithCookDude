@@ -7,6 +7,7 @@ define Morgan = Character("Morgan")
 define Julie = Character("Julie")
 define Rob = Character("Rob")
 define Dad = Character("Dad")
+define Mom = Character("Mom")
 define Nick = Character("Nick")
 define Aria = Character("Aria")
 define Diana = Character("Diana")
@@ -15,6 +16,7 @@ define Woman = Character("Woman")
 define Guide = Character("Guide")
 define Jogstudent = Character("Jogging Student")
 define Alexandra = Character("Alexandra")
+define James = Character("James")
 
 # Declare background images
 image bg kitchen = im.Scale("kitchen.png", 1280, 720)
@@ -24,6 +26,7 @@ image bg cafe = im.Scale("cafe.png", 1280, 720)
 image bg dorm = im.Scale("Dorm.png", 1280, 720)
 image bg indkitchen = im.Scale("industrial-kitchen.png", 1280, 720)
 image bg resttables = im.Scale("restaurant-tables.png", 1280, 720)
+image bg credits = im.Scale("credits.png", 1280, 720)
 
 
 #Define Audio Files
@@ -67,53 +70,78 @@ image female = "silhouette female.png"
 image male = "silhouette male.png"
 image food = "silhouette food.png"
 
+
+#Variable Defaults
+default schoolFlag = True
+default succFlag = True
+
+#Screens
+screen clickScreen():
+    key "mousedown_1" action Return(True)
+
 #Declare sprite positions
 transform left:
-        xalign 0
+        xalign .25
         yalign -.1        
 transform center:
         xalign .5
         yalign -.1
 transform right:
+        xalign .75
+        yalign -.1
+transform farleft:
+        xalign 0.0
+        yalign -.1
+transform farright:
         xalign 1.0
         yalign -.1
 #Food positions
 transform foodleft:
-        xalign 0
-        yalign .5        
+        xalign 0.25
+        yalign 0.5        
 transform foodcenter:
-        xalign .5
-        yalign .5
+        xalign 0.5
+        yalign 0.5
 transform foodright:
+        xalign 0.75
+        yalign 0.5
+transform foodfarleft:
+        xalign 0.0
+        yalign 0.5
+transform foodfarright:
         xalign 1.0
-        yalign .5
+        yalign 0.5
+
+#Declaring Transitions
+define longfade = Fade(0.5,1.5,0.5)
 
 label start:
     
     
 # ######DEBUG JUMPS###############################
-    scene bg kitchen
-    menu:
-        "Start from beginning":
-            jump intro
-        "Sausage intro":
-            jump sausage_intro
-        "Cooking 1":
-            jump cook1_start
-        "Lasagna intro 1":
-            jump lasagna_intro_1
-        "Tiramisu intro":
-            jump tiramisu_intro
-        "Lasagna intro 2":
-            jump lasagna_intro_2
-        "Tso intro":
-            jump tso_intro
+#    scene bg kitchen with longfade
+#    menu:
+#        "Start from beginning":
+#            jump intro
+#        "Sausage intro":
+#            jump sausage_intro
+#        "Cooking 1":
+#            jump cook1_start
+#        "Lasagna intro 1":
+#            jump lasagna_intro_1
+#        "Tiramisu intro":
+#            jump tiramisu_intro
+#        "Lasagna intro 2":
+#            jump lasagna_intro_2
+#        "Tso intro":
+#            jump tso_intro
 # ################################################
 # ################################################
 
     #1 INTRODUCTION START
 label intro:
-    scene bg kitchen 
+    scene bg kitchen
+    with longfade
     play music morgan fadeout 1
     
 
@@ -124,7 +152,7 @@ label intro:
     "I find those cliche’ sayings stupid. But my dad has always lived by that cheesy old saying and I’ve never met a person more popular than him."
     
     #Morgan(V.O.):
-    "His restaurant is always packed with people smiling, laughing, and eating. They’re even paying for it."
+    "His restaurant is always packed with people smiling, laughing, and eating."
     
     #Morgan(V.O.):
     "The food is famous, but it’s his personality that keeps people coming back again and again. He’s always welcoming and knows everyone by name."
@@ -151,7 +179,7 @@ label intro:
     "It might be a little old and worn down but it has its charms about it. Like How all the stoves and ovens work, but it takes a little longer for the second oven to get up to temperature."
     
     #Morgan (V.O.):
-    "We got everything you’d need to to make pretty much anything! Flippers, Flappers, Wirewands, Noodlegrabbers, Bowlsticks, Wirlymagigs, Potatoflays, Tinybidents, and so many other different utensils."
+    "We got everything you’d need to to make pretty much anything! Flippers, Flappers, Noodlegrabbers, Wirlymagigs, Potatoflays, Tinybidents, and so many other different utensils."
     
     #Morgan (V.O.):
     "With these specialty tools being at a chefs disposal and proper know-how they can make all kinds of wonderful foods!"
@@ -246,6 +274,8 @@ label intro:
     
     hide male
     show food at foodright
+
+    "..."
     
     #Morgan(V.O.):
     "Why does this always make me feel better? What was I doing? Oh, right. I have to go talk to dad."
@@ -259,6 +289,7 @@ label intro:
 ##################################################
 
 scene bg kitchen
+with fade
 
 "Julie and Rob seem to think that I don’t like them, but really I can’t say I give them good reason to think that."
 
@@ -298,38 +329,34 @@ Dad "And, you really should take some time to actually learn the fundamentals of
     
 Morgan "I know that, but..."
     
-##Δ Flag Choice##
+##School Flag Choice##
     
 menu:
     "Do I want to go back to school this Fall?"
         
     "Yes":
-        #schoolFlag = true
-        jump school_yes
+        $ schoolFlag = True
+        jump school1_yes
     "No":
-        #schoolFlag = false
-        jump school_no
+        $ schoolFlag = False
+        jump school1_no
             
-label school_yes:
+label school1_yes:
     Morgan "... You know what, fine. I guess I can’t keep working in this place forever anyways."
         
     Dad "Good to hear! You're finally taking your future into your own hands. You need to set a good example for Julie."
         
-    Dad "Oh, and about the rent, I almost forgot to tell you--"
+    jump school1_done
         
-    jump school_done
-        
-label school_no:
+label school1_no:
     Morgan "But why can’t you guys just hire me as a full time cook here? I already know all of your recipes."
         
     Dad "That’s not going to happen, Morgan. It’s about time you stood on your own two feet. You ARE going to start college this fall."
         
-    Dad "And about rent--"
-        
-    jump school_done
+    jump school1_done
 
         
-label school_done:
+label school1_done:
     #[Swinging Door Sounds]
     show male at left
     show female at right
@@ -345,7 +372,8 @@ label school_done:
 #Scene 3 NIKOLAUS INTRO
 #######################################
 label sausage_intro:
-    scene bg kitchen 
+    scene bg kitchen
+    with fade
 
     show female at center
     
@@ -370,7 +398,9 @@ label sausage_intro:
     Nick "I DEMAND TO SEE THE CHEF!"
     
     #Morgan (V.O):
-    "Who does this man made mostly of fucking thick ass steaks with a fluffy yellow poof for hair want, well whatever it is I sure as hell don’t want to deal with it."
+    "Who does this man made mostly of fucking thick ass steaks with a fluffy yellow poof for hair want?" 
+    
+    "Well whatever it is I sure as hell don’t want to deal with it."
     
     #Morgan (V.O.):
     "And why does he have to have a shirt so tight it shows off all of his- nevermind!"
@@ -471,7 +501,9 @@ label sausage_intro:
     #Morgan (V.O.)
     "I should stop doing this, well at least it’s easier than dealing with this fucking meathead!"
     
+    show sausage food at foodfarleft
     show male at center
+    show female at farright
     
     Rob "What the hell is going on now?"
     
@@ -510,7 +542,7 @@ label cook1_food_1:
     menu:
         "Prepare this?":
             jump cook1_good
-        "Back to recipie list":
+        "Back to recipe list":
             jump cook1_start
 
 label cook1_food_2:
@@ -518,14 +550,14 @@ label cook1_food_2:
     menu:
         "Prepare this?":
             jump cook1_bad
-        "Back to recipie list":
+        "Back to recipe list":
             jump cook1_start
 
 label cook1_notes:
     menu:
         "The Meathead":
             jump cook1_note_1
-        "Recipie List":
+        "Recipe List":
             jump cook1_start
     
 label cook1_note_1:
@@ -579,21 +611,16 @@ label cook1_bad:
     
     show sausage day confused at center
     
-    #Morgan (V.O.)(-):
     "He looks at it very confused at the breaded fried beef steak lightly covered in gravy made from the steak. He dips the steak into the gravy then shoves it in his face with gusto."
 
-    #Morgan (V.O.) (-):
-    "A loud crispy bite. He gives a “hmm” before he continues, chewing for a bit, his eyes start to water a bit but he keeps going, maybe the hot sauce was too much for him."
+    "A loud crispy bite. He gives a “hmm” before he continues, chewing for a bit."
     
-    Nick "Could I have some milk please, I wasn’t expecting spicy."
+    Nick "Gravy taste like thick pepper milk, and small bite in crust flip flop from how it is back home."
     
-    #Morgan (V.O.) (-):
-    "I wasn’t expecting someone so beefy to be such a weeny to spicy foods."
-    
-    #Morgan (V.O) (-):
-    "I bring him back a glass of milk add it to his ticket, then watch as he continues to go from eating, to pain, to relief."
-    
-    Nick "OH MY, I see what you mean, I guess you have much different stuff than back home!"
+    "Well I guess that’s how we like it here, you don’t have to make it sound like we're doing it wrong just because we aren’t doing it the way of the great meatpaste barons of yore!"
+
+    Nick "I meant no offence, but I see what you mean, I guess you have much different stuff than back home! But is good different!"
+
 
 label cook1_done:
     scene bg kitchen
@@ -642,6 +669,7 @@ label cook1_done:
 #Scene 4
 ##################################################
     scene bg resttables
+    with fade
 
     "Still pretty warm outside at least. Ugh, now I’ve got to handle where to live, I heard college helps with that."
     
@@ -730,6 +758,7 @@ label cook1_done:
 
 label lasagna_intro_1:
     scene bg resttables
+    with longfade
     play music morgan fadeout 1
     #Morgan (V.O.): 
     "Well, today could be going better. Definitely better, this is just so many dishes, how do we have so many dishes!? I’m not sure if it could have gone worse."
@@ -737,15 +766,26 @@ label lasagna_intro_1:
     #Morgan(V.O.):
     "I mean, even if something bizarre had happened, like if I lost my pants or something, I would have just left at that point."
     
-    #Δ1: 
+    if schoolFlag == True:
+        jump school2_yes
+    else:
+        jump school2_no
+    
+label school2_yes:
     "Being put on dishwasher duty kinda sucks but only working so many hours will leave time for class work, which is gonna start up soon I guess." 
     
-    #Δ1: 
     "At least, that’s what dad has been telling me. Didn’t think he ever had to start as a dishwasher, he’s such a good cook."
     
-    #Δ2: 
+    "I even got all the moving a paperwork junk taken care of super fast!"
+    jump school2_done
+
+label school2_no:
     "Ugh this is so fucking stupid. There is no way that dad was a dishwasher, ever. Bullshit. Now I’m stuck getting gross, pruney hands."
     
+    "I also couldn’t say no to Meathead and his offer to keep this ruse going. I can’t just couldn’t leave an offer that good. And now I have to live with him."
+    jump school2_done
+
+label school2_done:
     show female at center
     play music general fadeout 1
     
@@ -775,6 +815,8 @@ label lasagna_intro_1:
     
     show lasagna work drunk at center
     #[music notes]
+    Aria "Heyyyyy Evryonne, I'm Aria an thiz is the BEHST song!"
+
     Aria "-Maked room wif me is to soon to saw if I’m glad im herre-"
     
     #Morgan (V.O.):
@@ -814,11 +856,318 @@ label lasagna_intro_1:
     
     Julie "I’ll try. No guarantees, but I’ll certainly try."
 
+    scene bg resttables
+    with dissolve
+    play music morgan fadeout 1
+
+    "Now time to leave for the night, finally. Wait, Is that the poof I think it is?"
+
+    show sausage day happy at center
     
+    Nick "MORGAN!"
+    
+    "Yup."
+    
+    Morgan "Not so loud! What is it?"
+    
+    Nick "It is about the dorms, you can sign this to get you in. I also brought pen, then I can give it back in morning."
+    
+    Morgan "Ugh sure meatman."
+    
+    "Sign the thing get it done with."
+    
+    Nick "Yes, this is good."
+    
+    Nick "Now you will need to pack, and be ready in a week."
+
+
+#Scene 5.5
+##################################################
+    scene bg app
+    with longfade
+    
+    "Been slowly getting things packed for the past couple days."
+
+    if schoolFlag == True:
+        jump school3_yes
+    else:
+        jump school3_no
+    
+label school3_yes:
+    "It’s really bizarre for my stuff to not be in its places. Soon I’ll make new homes for everything though! I wonder where my new space for the clicker will be? Or, the new plate cave?"
+    jump school3_done
+
+label school3_no:
+    "It's usually kinda hard for me to get up the motivation to clean up around here, let alone get it put into boxes to go to college."
+    jump school3_done
+        
+label school3_done:
+    "I’m kinda glad that I didn’t have to do any of the work, I would have probably backed down otherwise."
+    
+    "I know that I’ve heard that dorms are often just like a single room that everyone kinda shares as a collective bedroom-living room thing... and now that I’m going over this to myself, fuck I don’t want to live in that for what... four years...? ugh."
+    
+    "And my discomforted groaning is quickly drowned out by a THUD at the door."
+    
+    play music nick
+    
+    Nick "COMING IN!"
+    
+    Morgan "No, what, don't, stop."
+    
+    "And as I say that, the door comes flying open."
+    
+    show sausage day happy at center
+    
+    Nick "Hello, is everything all ready!?"
+    
+    Morgan "What? Why did you just barge in like that?!"
+
+    show sausage day at center
+    
+    Nick "Well you knew I was coming so either you’d left it unlocked for me or I wouldn’t be able to enter, yes?"
+    
+    Morgan "I um uh."
+    
+    "Actually it's more that I either forget or was too lazy to lock it..."
+    
+    "But he doesn’t need to know that!"
+    
+    Morgan "Yeah, I got everything packed."
+    
+    show sausage day happy at center
+
+    Nick "Is good!"
+    
+    Morgan "So, do you have like a car or something."
+    
+    Nick "I got my friend to let me borrow truck!"
+    
+    Morgan "Uh, ok then..."
+    
+    "After less trips than I expected we got everything loaded and were on our way."
+    
+    "There were more times that I had to remind meatyboy which side of the road was correct then I thought I would ever need to."
+    
+    scene bg dorm
+    with fade
+
+    show sausage day at center
+
+    "OK, now that we get here, the outside looks pretty standard, is this actually just a house disguised as a dorm!?"
+    
+    Nick "They let you have full bedroom like me."
+
+    "Is this just a big house at the college?"
+    
+    Nick "We have one kitchen and one bathroom that everyone shares."
+    
+    "This is just a big house at the college."
+    
+    Nick "Here is the-"
+    
+    Morgan "Is this just a house on campus?"
+    
+    show sausage day confused at center
+
+    Nick "Uh. It is house but it’s owned by the school, and is on school, with people that go to school. Is school house!"
+    
+    Morgan "Uh yeah, ok."
+
+    show sausage day at center
+    
+    "There were a few hours of just one by one taking everything into my new room. It's a little bigger than my old room, but definitely smaller that my old living room, but there is still the big living room here, but I’m not sure how much I want to encroach into their space like that."
+    
+    "Now I need to run over and tell Dad the news."
+    
+    scene bg resttables
+    with fade
+    play music morgan fadeout 1
+    
+    "Pretty busy today, but we always manage to get everything out at a reasonable rate."
+
+    show female at center
+    
+    Julie "Hey you can’t work today, them’s the rules."
+    
+    Morgan "Wait, what, no, that's not why I’m here!"
+    
+    Julie "Right, then what else would you be here for?"
+    
+    Julie "Spread lies about me to some more ignorant bystander?"
+    
+    Morgan "No!"
+    
+    Morgan "Not yet. But, to the point, is Dad around?"
+    
+    Julie "Uh, he might be in the office, I haven’t seen him in a while. Also, Mom was back there, so who knows what could be going on."
+    
+    Morgan "Well I need to tell dad about the move."
+    
+    Julie "Good luck."
+    
+    hide female
+    
+    "Not Out front huh. Usually he would be out greeting everyone then running back to make the orders in his goofball way."
+    
+    "Maybe it has something to do with whatever Mom's here for?"
+    
+    "Somehow I managed to wander into the back while daydreaming about what's going on."
+
+    show female at center
+    
+    Mom "Son, hello? Hey!?"
+    
+    Morgan "Huh?"
+    
+    Mom "What are you doing here? Shouldn't you be off getting ready for school?"
+    
+    Morgan "Uh yeah, actually came by to say that I got everything moved in to the dorm..  thou-"
+    
+    Mom "That's nice dear, when are you starting classes?"
+    
+    Morgan "About a week. Uh where's Dad?"
+    
+    Mom "He's out."
+    
+    Morgan "Aw, I want to tell him. You know when he'll get back?"
+    
+    Mom "I will tell him after he has had some time to think about his actions."
+    
+    Morgan "What?"
+    
+    Mom "It's nothing you should be worrying yourself about. Father-Chef problems."
+    
+    "Problems? I didn't think that Dad could have any problems he'd need to stop doing things around the restaurant during rush time for."
+    
+    Morgan "Oh, uh ok."
+    
+    Mom "I know you look up to your father Morgan, but you want more than this, right?"
+    
+####  Be Successful Flag Choice  ##########
+    menu:
+        "Can I be better than what dad has here."
+        
+        "Sure":
+            $ succFlag = True
+            jump succ1_yes
+            
+        "No":
+            $ succFlag = False
+            jump succ1_no
+            
+label succ1_yes:
+    "Uh, sure."
+    
+    "I’m not really sure what shes talking about, but I could be down with maybe branching out a bit more than hometown cooking."
+    
+    "Morgan I think it would be cool to do more things."
+    
+    if schoolFlag == True:
+        Mom "That’s what college is for. Get you the knowledge to do great things."
+        
+        Mom "A degree is always good to put on a resume when applying to any job, Chef included."
+        
+    else:
+        "I’ll need to find time when I’m not in culinary jail to find my untapped potential."
+        
+    Mom "If you focus I know you can do it."
+    jump succ1_done
+
+label succ1_no:
+    Morgan "No"
+    
+    "What could she mean, there is no way I could do more than here. More than dad? I’m not some cuisine wizard beamed down from on high!"
+    
+    "That is clearly dad."
+    
+    "Mom what are you gonna do if the restaurant goes away or we can’t keep having you around."
+    jump succ1_done
+    
+label succ1_done:
+    Mom "Well, I’m very sure he’ll be happy to hear about the apartment, I’ll make sure to tell him when he gets back."
+    
+label dorm_intro:
+    scene bg app
+    with fade
+    play music morgan fadeout 1
+    
+    "And now, back to the dorm."
+    
+    "The walk feels a lot longer on way back. I don’t know if it’s all uphill going this way, or the weirdness with Mom just now."
+    
+    "Is there something going on?"
+    
+    "She sounded ominus, which to be fair is how she always sounds."
+    
+    scene bg dorm
+    with fade
+    
+    "Well, back here at the dorm. I wonder if anything’s going on?"
+
+    show sausage day happy at center
+    play music nick fadeout 1
+    
+    Nick "WELCOME HOME!"
+    
+    Morgan "I’m out."
+    
+    Nick "NO, I am welcome, and this is home."
+    
+    "He then puts his hand on my shoulder to keep me in place."
+    
+    show sausage day sad at center
+    
+    Nick "I am sorry I tried to gather rest of room mates but they are all absent. Saddest of events."
+    
+    Morgan "I mean that’s fine, I’m not big on those kinds of thing-"
+    
+    show sausage day angry at center
+    
+    Nick "Nonsense!"
+    
+    show sausage day happy at center
+
+    Nick "Soon you will meet them. They are Dan, James, and Chris."
+    
+    Morgan "Uh, ok."
+    
+    show sausage day confused at center
+
+    Nick "Dan and James don’t talk much, and Dan isn’t here much, so he doesn’t really know people. I try to know him, but he’s never here."
+    
+    show sausage day at center
+    
+    Nick "Dan is Engineer major, and James is Graphics Design."
+
+    Morgan "Huh, interesting. I guess they don’t work with people too much."
+    
+    Nick "Well Dan does."
+    
+    Nick "Chis is other room mate, is also busy."
+
+    show sausage day happy at center
+    
+    Nick "But full of charisma, like me!"
+    
+    Nick "He is Architect."
+    
+    Nick "You should see him talk about his big plans."
+    
+    Morgan "Ah yeah, sounds fun."
+
+    show sausage day at center
+    
+    "We then got the rest of the boxes into the room unpacked a bit more."
+
+    hide sausage
+    
+    "Which quickly devolved into me doing it by myself until I decided to call it for the night."
+
 #Scene 6
 ##################################################
 label tiramisu_intro:
     scene bg kitchen
+    with longfade
     
     "Glad they are letting me cook on some of the low staff days. Gets me away from all the pruny hands, and DISHES."
     
@@ -842,6 +1191,7 @@ label tiramisu_intro:
     play music diana fadeout 1
     
     scene bg resttables
+    with fade
     show tiramisu day disgust at center
     
     "oh my god. why is she- why is this happening."
@@ -860,7 +1210,7 @@ label tiramisu_intro:
     
     show tiramisu day at center
     
-    Diana "... Oh well, it’s not like you can embarrass yourself all the way back in the kitchen. I’m looking for a new personal cook, come work for me. "
+    Diana "... Oh well, it’s not like you can embarrass yourself all the way back in the kitchen. My name is Diana, and I’m looking for a new personal cook, come work for me. "
     
     "my heart feels like it’s about to burst out of my chest, she has such pretty--"
     
@@ -908,6 +1258,7 @@ label tiramisu_intro:
     
 ################ FILL OUT TEXT HERE WITH PROPER ENTRIES #######################
     scene bg kitchen
+    with fade
 label cook2_start:
     play music minigame fadeout 1
     menu:
@@ -923,7 +1274,7 @@ label cook2_food_1:
     menu:
         "Prepare this?":
             jump cook2_good
-        "Back to recipie list":
+        "Back to recipe list":
             jump cook2_start
 
 label cook2_food_2:
@@ -931,19 +1282,19 @@ label cook2_food_2:
     menu:
         "Prepare this?":
             jump cook2_bad
-        "Back to recipie list":
+        "Back to recipe list":
             jump cook2_start
 
 label cook2_notes:
     menu:
-        "Tiramisu":
+        "Diana":
             jump cook2_note_1
-        "Recipie List":
+        "Recipe List":
             jump cook2_start
     
 label cook2_note_1:
-    "TEXT GO HERE"
-    jump cook1_notes
+    "She seems really elegant, I should probably make something fancy for her."
+    jump cook2_notes
 ##############################################################################
 
 
@@ -951,7 +1302,7 @@ label cook2_good:
     scene bg kitchen
     "First start with the balsamic reduction, that can stay out a bit after cooking. Take a cup of balsamic and a few tablespoons of sugar on medium just wait a bit for that to boil and reduce down."
 
-    "Need to take some fresh mozzarella, if it's not really high quality it really shows because it is the center focus of the dish, even if we add shrimp." 
+    "Need to take some fresh mozzarella, if it's not really high quality it really shows because it is the center focus of the dish, even though I plan on adding some side shrimps." 
 
     "Cut it into equal portions, almost like large thick cheese coins. Then slice up the tomato." 
 
@@ -959,9 +1310,10 @@ label cook2_good:
 
     "Now that I think about it I could pair this really well with some shrimp, just need something that ties them together, basil. I can finely dice up some basil and garlic to put with the shrimp in some olive oil." 
 
-    "Just a bit on each side should do nicely, just need to make sure that it’s not overcooked or it’ll turn out tough. Line them up in the middle, and order up!"
+    "Just a bit on each side should do nicely, just need to make sure that it’s not overcooked or it’ll turn out tough. She’d like it if I keep everything neat so I’ll line them up in the middle, and order up!"
 
     scene bg resttables
+    with fade
     show tiramisu food at foodcenter
     play music diana fadeout 1
     
@@ -1015,6 +1367,7 @@ label cook2_bad:
     "Heat it up with the meat and pour that delicious sludge over the pasta. Order up!"
 
     scene bg resttables
+    with fade
     show tiramisu food at foodcenter
     play music diana fadeout 1
     
@@ -1065,8 +1418,10 @@ label cook2_bad:
 label lasagna_intro_2:
     label scene7:
     scene bg cafe
+    with longfade
     #coffee shop 
 
+    Morgan "I’ve been here a couple times before morning shifts. I usually just grab whatever’s written biggest on the board super quick and less than fully awake. It’s really close to work, always a plus. Now also on the way to campus."
 
     show lasagna work at center
     play music aria fadeout 1
@@ -1082,10 +1437,9 @@ label lasagna_intro_2:
     Morgan "Thanks."
     
     hide lasagna
-    play music morgan fadeout 1
     
     #Morgan (V.O): 
-    "I’m glad I’ve got somewhere I can go for a bit of peace and quiet. Sometimes it’s nice to have a some time to myself. Take a break from all the crazy I’ve been dealing with lately."
+    "I’m glad I’ve got somewhere I can go for a bit of peace and quiet. It’s nice to have a some time to myself. Take a break from all the crazy I’ve been dealing with lately."
     
     #Morgan (V.O):
     "Gotta give myself a little breather before I have to head off to the campus, this coffee shop is tucked away enough that it doesn’t get too many customers."
@@ -1094,7 +1448,6 @@ label lasagna_intro_2:
     "Taking my breaks from work and school here will be some of the best parts of my day. Taking my breaks from Nick here are some of the best parts of my week."
     
     show sausage day happy at center
-    play music nick fadeout 1
 
     Nick "Hello friend! Are you getting lunch?"
     
@@ -1132,7 +1485,6 @@ label lasagna_intro_2:
     
     show lasagna work angry at left
     show sausage day confused at right
-    play music aria fadeout 1
     
     Aria "HEY, YOU TWO, PIPE DOWN!"
     
@@ -1216,6 +1568,7 @@ label lasagna_intro_2:
 ##################################################
 label tso_intro:
     scene bg school
+    with longfade
     
     show female at center
     play music morgan fadeout 1
@@ -1232,12 +1585,18 @@ label tso_intro:
     
     "It’s all been really disorientating!"
     
-    #IF SCHOOL FLAG
+    if schoolFlag == True:
+        jump school4_yes
+    else:
+        jump school4_no
+        
+label school4_yes:
     "Now I got to make sure to make a better impression here if I’m gonna be going through with this."
     
     "At least the grounds look pretty amazing. A good amount of different interesting buildings with some older more traditional style buildings and some non typical sleek designs. I wonder which one they hold the cooking classes in!"
-    
-    #ELSE SCHOOL FLAG
+    jump school4_done
+
+label school4_no:
     "Let's just get this over with. Ugh why can’t I just go to the cooking building and be done already."
     
     "Their campus is some kind of hodgepodge of buildings. Some of them are almost falling apart, and some that were just built. They make it really confusing to try to commit them all to memory."
@@ -1245,7 +1604,9 @@ label tso_intro:
     "Why would they try to get you to remember so many names and locations for buildings, AND THEN make you learn everything required for the classes you have to take."
     
     "It’s just a whole lot to try to keep in your head, how am I supposed to concentrate on not messing up these first impressions with all of the new people I meet!"
+    jump school4_done
     
+label school4_done:
     "Wait... where am I?"
     
     "I think I lost my group."
@@ -1281,6 +1642,7 @@ label tso_intro:
     
     # BG CLASSROOM HERE###################
     scene bg indkitchen
+    with fade
     
     "So this is what culinary school is going to look like. Man, these guys have everything."
     
@@ -1409,8 +1771,13 @@ label tso_intro:
     
     Alexandra "Good, because we really should be going."
     
-    #END OF DEMO BOIS
+#####  END OF DEMO BOIS  ###################################
+label credits:
+    scene bg credits
+    with longfade
+    play music title fadeout 1
 
+    call screen clickScreen
 
 
     # This ends the game.

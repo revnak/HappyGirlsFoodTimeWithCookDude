@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 487: style property return_button is not known.
-    style game_menu_label_text is ystyle return_button is navigation_button
-                                                      ^
+File "game/options.rpy", line 63: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
+    define config.main_menu_music = "Delightful D.mp3"
+    ^
 
-Ren'Py Version: Ren'Py 6.99.12.4.2187
+Ren'Py Version: Ren'Py 6.99.13.2919

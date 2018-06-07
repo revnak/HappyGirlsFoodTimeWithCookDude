@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "1.0"
+define config.version = "0.5"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
@@ -44,9 +44,9 @@ define build.name = "FullCourse"
 ## These three variables control which mixers are shown to the player by
 ## default. Setting one of these to False will hide the appropriate mixer.
 
-define config.has_sound = True
+#define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+#define config.has_voice = True
 
 
 ## To allow the user to play a test sound on the sound or voice channel,
@@ -60,7 +60,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/Delightful D.mp3"
 
 
 ## Transitions #################################################################
@@ -120,6 +120,12 @@ default preferences.text_cps = 0
 ## to 30 being the valid range.
 
 default preferences.afm_time = 15
+
+## Audio Defaults
+
+define config.default_music_volume = 0.2
+
+default preferences.fullscreen = True
 
 
 ## Save directory ##############################################################
