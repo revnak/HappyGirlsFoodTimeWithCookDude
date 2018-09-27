@@ -173,13 +173,13 @@ label intro:
     "For as long as I could remember I’ve felt more at home in a kitchen than anywhere else. I can do what I love without worrying so much."
     
     #Morgan(V.O.):
-    "This kitchen is a lot of white walls and chrome appliances for the most part. Though there is some older more plastic ones that Dad has never been able to part with."
+    "This kitchen has a lot of white walls and chrome appliances for the most part. Though there are some older more plastic ones that Dad has never been able to part with."
     
     #Morgan (V.O.)
     "It might be a little old and worn down but it has its charms about it. Like How all the stoves and ovens work, but it takes a little longer for the second oven to get up to temperature."
     
     #Morgan (V.O.):
-    "We got everything you’d need to to make pretty much anything! Flippers, Flappers, Noodlegrabbers, Wirlymagigs, Potatoflays, Tinybidents, and so many other different utensils."
+    "We got everything you’d need to to make pretty much anything! Flippers, Potatoflays, Tinybidents, and so many other different utensils."
     
     #Morgan (V.O.):
     "With these specialty tools being at a chefs disposal and proper know-how they can make all kinds of wonderful foods!"
@@ -266,11 +266,17 @@ label intro:
     #Morgan(V.O.):
     "i just want to leave."
     
-    #Morgan(V.O.):
-    "let me leave"
+    Julie "I heard Dad talking about how you got an entire table of teens get up and -"
+
+    "let me leave. Julie is making things worse. Let me leave."
+
+    Rob "Well, if they didn’t wear such skimpy clothing my eyes wouldn’t wander so-"
+
+    Julie "No excuse for coming off as a cree-"
     
-    #Morgan(V.O.):
     "letmeleaveletmeleaveLETMELEAVELETMELEA-"
+
+    Rob "Oh yeah that coming from a little girl that cries whenever she doesn’t get tips-"
     
     hide male
     show food at foodright
@@ -307,9 +313,9 @@ show male at center
     
 Dad "Heya Peaches, about time you got out here. I was beginning to think you finally got the courage to start flirting with a customer on the way out."
     
-"My Dad. He’s a big man with basically the manliest beard I’ve ever seen. He wears a standard polo shirt that all the cooks wear, but all the time."
+"My Dad. He’s a big man with basically the manliest beard I’ve ever seen. He wears a standard polo shirt that all the cooks wear, but he wears it all the time."
     
-"He also always has one of those stereotypical chefs hats on. He got it back  when he first became a chef, so like when he was born."
+"He also always has one of those stereotypical chefs hats on. He got it back  when he first became a chef. So like, when he was born."
     
 Morgan "You know I hate it when you call me that."
     
@@ -319,11 +325,11 @@ Dad "Sure. Julie. She’d be the problem. Ha! Anyway, I didn’t call you out he
     
 "God I hope not, he knows I’ve never had a girlfriend. I mean, how do I even begin to talk to a gir-"
     
-Dad "Hey, focus. It’s almost Fall. Have you given what your mother and I talked with you about any thought?"
+Dad "Hey, focus. It’s almost Fall. Have you given any thought to what your mother and I talked to you about?"
     
 Morgan "..."
     
-Dad "It’s about time you went to college. You’ve been out of highschool, for how long now, three years? And as much as we love you your mother and I can’t keep paying for you forever."
+Dad "It’s about time you went to college. You’ve been out of highschool, for how long now, three years? And as much as we love you, your mother and I can’t keep paying for you forever."
     
 Dad "And, you really should take some time to actually learn the fundamentals of cooking."
     
@@ -342,9 +348,15 @@ menu:
         jump school1_no
             
 label school1_yes:
-    Morgan "... You know what, fine. I guess I can’t keep working in this place forever anyways."
+    Morgan "... You know what, fine. I guess I can’t keep from becoming a better chef."
+
+    "I chuckle a little bit nervously."
         
-    Dad "Good to hear! You're finally taking your future into your own hands. You need to set a good example for Julie."
+    Dad "Good to hear!"
+    
+    "He pauses for a bit and just smiles for a little bit."
+    
+    Dad "You're finally taking your future into your own hands. You need to set a good example for Julie."
         
     jump school1_done
         
@@ -363,7 +375,7 @@ label school1_done:
         
     Julie "Morgan, we need you back inside, we have a customer asking for you."
         
-    Dad "Go on, we will talk about this later."
+    Dad "Go on, we’ll talk about this later."
         
     "Why would a customer want to talk to me? I just cook here…"
         
@@ -398,7 +410,7 @@ label sausage_intro:
     Nick "I DEMAND TO SEE THE CHEF!"
     
     #Morgan (V.O):
-    "Who does this man made mostly of fucking thick ass steaks with a fluffy yellow poof for hair want?" 
+    "What does this man made mostly of fucking thick-ass steaks, with fluffy yellow puff for hair want? Well, whatever it is, I sure as hell don’t want to deal with after that last." 
     
     "Well whatever it is I sure as hell don’t want to deal with it."
     
@@ -459,7 +471,7 @@ label sausage_intro:
     Nick "HOW DARE YOU INSULT MY PROUD AND MAGNIFICENT CULTURE!?! YOU BACKWARDS AMERICANS THINK YOU KNOW EVERYTHING DON’T YOU!?!"
     
     #Morgan (V.O.): 
-    "Why are we arguing about this, why can’t this guy just get that we don’t do food from germany, it's not that hard to understand."
+    "Why are we arguing about this, why can’t this guy just get that we don’t do food from Germany, it's not that hard to understand."
     
     Morgan "I think I know how to make good food without grinding it into a flavourless paste. Or, do you think I have something already pickled, we don’t!"
     
@@ -499,7 +511,7 @@ label sausage_intro:
     "Ha! He is a meathead, a stubborn meathead! Ha... Yeah."
     
     #Morgan (V.O.)
-    "I should stop doing this, well at least it’s easier than dealing with this fucking meathead!"
+    "I should stop doing this. Well, at least it’s easier than dealing with this fucking meathead!"
     
     show sausage food at foodfarleft
     show male at center
@@ -507,7 +519,7 @@ label sausage_intro:
     
     Rob "What the hell is going on now?"
     
-    Morgan "Oh Rob, this poor German youth is ranting about his struggle with the concept of decent food to me. Sounds like a best seller, revolutionary even. At least for the German people."
+    Morgan "Oh Rob, this poor German youth is ranting about his struggle to understand the concept of decent food. Sounds like a best seller, Revolutionary even. At least for the German people."
     
     Nick "Sir, this “chef” is insulting the proud traditional cooking of my great people, and I will not stand for it!"
     
@@ -540,7 +552,7 @@ label cook1_start:
 label cook1_food_1:
     "Beef Schnitzel- A German dish. I should be able to make this with the beef and breading we have, I'll just have to tenderize it first."
     menu:
-        "Prepare this?":
+        "Prepare this":
             jump cook1_good
         "Back to recipe list":
             jump cook1_start
@@ -548,7 +560,7 @@ label cook1_food_1:
 label cook1_food_2:
     "Chicken Fried Steak- A pretty normal dish on the menu, popular for lunch."
     menu:
-        "Prepare this?":
+        "Prepare this":
             jump cook1_bad
         "Back to recipe list":
             jump cook1_start
@@ -567,29 +579,36 @@ label cook1_note_1:
 
 
 label cook1_good:
-    "Ok so to start I need to lay down a piece of plastic wrap down big enough to also cover the top of the pork chop then lay the chop down and fold plastic over."
+    "Ok, to start I need to first tenderize the meat."
 
-    "Then I got to take the flat wide meat.. mallet to the chop hitting in the middle pressing towards the outside. Give it a couple goes and tada, perfectly pounded meat!"
-
-    "Now that we got the meat pounded but clearly not to the level of paste, I gotta get the things for the breading. I got flour, eggs beaten with a splash of milk and lastly breadcrumbs with parsley and some seasoning salt." 
-
-    "First for making an excellent crust is to coat the chop in flour, then egg wash, bread crumbs, back into the egg and a final dose of breadcrumbs. Need to press into the meat to get the breading to really stick to the meat." 
-
-    "Now onto the frying, gotta get one of the large frying pans and heat some oil in it. Put that meat in for a few minutes on the first side then flip. Now i gotta just a couple chunks of butter to bring some richness to the crust."
-
-    "Just a few minutes in there and it is ready to plate! Take some cucumber salad we have in the fridge and garnish the meat with a lemon wedge."
-
+    "If we had veal laying around that would be more traditional, but meat boy will have to deal with beef."
+    
+    "pound it flat with a mallet. . ."
+    
+    "and tada, perfectly prepped meat."
+    
+    "Now that it is pounded, but clearly not to the level of paste, I gotta get the breading ready."
+    
+    "For that I have flour, egg mixture, and lastly some seasoned breadcrumbs."
+    
+    "This will make it stick to the meat and create an excellent crust!"
+    
+    "Now onto the frying, put the meat in for a few minutes on each side."
+    
+    "Next, add a couple chunks of butter to bring some richness to the crust."
+    
+    "Just a few minutes and there it is ready to plate! Throw in some cucumber salad we have in the fridge, and garnish the meat with a lemon wedge. Done."
+    
     "Order up!"
 
     play music nick fadeout 1
     
-    show sausage day happy at center
+    show sausage food at center
     
-    #Morgan (V.O.) (+):
-    "He eyes his food for a few seconds and then shoves it into his meat hole with a audible omph, which quickly became a very light muffled crunch."
-    "Then, going through the more tender beef inside the breaded exterior his eyes widen with a kind of overwhelming desire, and some nonsense of the PROUD GERMAN PEOPLE."
+    "He eyes his food for a few seconds and then shoves it into his meat hole with a audible omph, which quickly became a very light muffled crunch." 
     
-    #Morgan (V.O.)(+):
+    "Then, going through the more tender pork chop inside the breaded exterior his eyes widen with a kind of overwhelming desire, and some nonsense about the PROUD GERMAN PEOPLE."
+    
     "Chewing intensifies, as if it was the meatiest meat grinder that has ever consumed meat, and then ends with more audible gulps."
 
     Nick "OH MY THIS IS WUNDERBAR!" 
@@ -597,21 +616,33 @@ label cook1_good:
     
 label cook1_bad:
     
-    "I first need to grab some cubed steak from the fridge. Season it with salt, pepper, cayenne, and paprika."
-
-    "Now we do the double dredge. Coat it in flour, then some lightly beaten egg because its best to have an uneven kind of crust to it, and then back into the flour. Then take a skillet with some oil turn up the heat."
-
-    "Now to let if crisp up on one side, then flip it over and get the other. Now to take that out and start that thick gravy that customers always come back for."
-
-    "Just need to add some flour and little more oil into the pan with all the greasy bits left over from the steak. Mix it around, and once it reaches a paste like consistency add a little milk."
-
-    "Add in some salt and a bunch of pepper just need to whisk-whisk away until it thickens up. Finally I just need to spread that gravy all over that chickened steak! Serve with a side of fries."
-
+    "First, I need to grab some cubed steak, and a light seasoning of salt, pepper, cayenne, and paprika."
+    
+    "Coat it in flour, then some lightly beaten egg, because Dad says it’s best to have an uneven kind of crust to it, then back into the flour."
+    
+    "Now, to let it crisp up."
+    
+    "Then take it out of the pan and start the thick gravy that customers always come back for."
+    
+    "For that I just sprinkle in some flour and a little more oil into the pan with all the greasy bits left over from the steak."
+    
+    "Mix it around, and once it reaches a paste-like consistency add a little milk."
+    
+    "Ugh, paste on the brain with this Beef Boy around..."
+    
+    "Add in some salt and a bunch of pepper."
+    
+    "Just need to whisk-whisk away until it thickens up."
+    
+    "Finally I spread that gravy all over the chickened steak! Serve with a side of fries."
+    
+    "Order up!"
+    
     play music nick fadeout 1
     
-    show sausage day confused at center
+    show sausage food at center
     
-    "He looks at it very confused at the breaded fried beef steak lightly covered in gravy made from the steak. He dips the steak into the gravy then shoves it in his face with gusto."
+    "He looks at it very confused at the breaded fried beef steak lightly covered in gravy. He dips the steak into the gravy then shoves it in his face with gusto."
 
     "A loud crispy bite. He gives a “hmm” before he continues, chewing for a bit."
     
@@ -625,17 +656,15 @@ label cook1_bad:
 label cook1_done:
     scene bg kitchen
     
-    show sausage day confused at center
+    show sausage food at center
     
     #Morgan (V.O.):
     "Why the fuck did he come back here, I was just about to quit for the day."
     
-    Nick "Wait where are you going chef? I haven’t properly thanked you!" #[confused]
+    Nick "Wait where are you going chef? I haven’t properly thanked you!"
     
     Morgan " No that’s fine just doing my job really."
     
-    hide sausage day confused
-    show sausage day happy at center
     #[If we can, zoom Nick sprite in till it covers the scene]
     
     #Morgan (V.O.):
@@ -650,7 +679,8 @@ label cook1_done:
     
     Nick "Well, I’m very sorry, sometimes I don’t realize my own strength, but I am very grateful that you went out of your way to make specialty meal for me!" #[happy]
   
-    #[Nick sprite center]
+    hide sausage food
+    show sausage day happy at center
     
     Morgan "Yeah meathead, it was no problem. My boss was gonna get angry at me, and I would really enjoy keeping my job. Sadly it might end soon, I don’t know."
     
@@ -709,7 +739,7 @@ label cook1_done:
     
     Nick "Food was very good. A bit light for my tastes, but very good!"
     
-    Morgan "Well, that’s not enough I guess. I’m too ignorant of cooking fundamentals, at least that’s what my family told me, they are going to throw their own child out to fend for himself."
+    Morgan "Well, that’s not enough I guess. I’m too ignorant of cooking fundamentals, at least that’s what my family told me. And now they’re going to throw their own child out to fend for himself."
     
     show sausage day surprised at center
     
@@ -776,13 +806,13 @@ label school2_yes:
     
     "At least, that’s what dad has been telling me. Didn’t think he ever had to start as a dishwasher, he’s such a good cook."
     
-    "I even got all the moving a paperwork junk taken care of super fast!"
+    "I even got all the moving and paperwork junk taken care of super fast!"
     jump school2_done
 
 label school2_no:
     "Ugh this is so fucking stupid. There is no way that dad was a dishwasher, ever. Bullshit. Now I’m stuck getting gross, pruney hands."
     
-    "I also couldn’t say no to Meathead and his offer to keep this ruse going. I can’t just couldn’t leave an offer that good. And now I have to live with him."
+    "I also couldn’t say no to Meathead and his offer to keep this ruse going. I can’t, I just couldn’t leave an offer that good. Ugh, but now I have to live with him."
     jump school2_done
 
 label school2_done:
@@ -819,8 +849,7 @@ label school2_done:
 
     Aria "-Maked room wif me is to soon to saw if I’m glad im herre-"
     
-    #Morgan (V.O.):
-    "It's some girl with fiery hair with blonde streaks and a complexion to match. Which, from the almost inaudible sounds she is making, is probably from drinking way too much."
+    "It’s Some girl with fiery hair with blonde streaks and a complexion to match. Which, from the almost inaudible sounds she is making, is probably from drinking way too much."
     
     Morgan "The crazies are out in full force tonight, huh?"
     
@@ -842,7 +871,7 @@ label school2_done:
     
     Morgan "Well, I can barely see her."
     
-    Julie "Well, she can barely say a word let alone a full sentence and you think that she’s singing well?"
+    Julie "Well, she can barely say a word– let alone a full sentence, and you think that she's singing well?"
     
     Morgan "Putting a sentence together isn’t the only point of singing, sometimes you’re just trying to express a feeling or something."
     
@@ -946,8 +975,6 @@ label school3_done:
     
     "After less trips than I expected we got everything loaded and were on our way."
     
-    "There were more times that I had to remind meatyboy which side of the road was correct then I thought I would ever need to."
-    
     scene bg dorm
     with fade
 
@@ -975,7 +1002,7 @@ label school3_done:
 
     show sausage day at center
     
-    "There were a few hours of just one by one taking everything into my new room. It's a little bigger than my old room, but definitely smaller that my old living room, but there is still the big living room here, but I’m not sure how much I want to encroach into their space like that."
+    "There were a few hours Of just us taking everything, one by one, into my new room. It's a little bigger than my old room, but definitely smaller that my old living room, but there is still the big living room here, but I’m not sure how much I want to encroach into their space like that."
     
     "Now I need to run over and tell Dad the news."
     
@@ -1001,13 +1028,13 @@ label school3_done:
     
     Julie "Uh, he might be in the office, I haven’t seen him in a while. Also, Mom was back there, so who knows what could be going on."
     
-    Morgan "Well I need to tell dad about the move."
+    Morgan "Well, I need to tell dad about the move."
     
     Julie "Good luck."
     
     hide female
     
-    "Not Out front huh. Usually he would be out greeting everyone then running back to make the orders in his goofball way."
+    "Not out front, huh? Usually he would be out greeting everyone, then running back to make the orders, in his goofball way."
     
     "Maybe it has something to do with whatever Mom's here for?"
     
@@ -1080,11 +1107,11 @@ label succ1_no:
     
     "That is clearly dad."
     
-    "Mom what are you gonna do if the restaurant goes away or we can’t keep having you around."
+    Mom "Mom what are you gonna do if the restaurant goes away or we can't afford keeping you around?"
     jump succ1_done
     
 label succ1_done:
-    Mom "Well, I’m very sure he’ll be happy to hear about the apartment, I’ll make sure to tell him when he gets back."
+    Mom "Well whatever the case, I’m very sure your father will be happy to hear about the apartment, I’ll make sure to tell him when he gets back."
     
 label dorm_intro:
     scene bg app
@@ -1157,11 +1184,11 @@ label dorm_intro:
 
     show sausage day at center
     
-    "We then got the rest of the boxes into the room unpacked a bit more."
+    "We then got the rest of the boxes unpacked a bit more."
 
     hide sausage
     
-    "Which quickly devolved into me doing it by myself until I decided to call it for the night."
+    "Which quickly devolved into me doing it by myself until I decided to call it a night."
 
 #Scene 6
 ##################################################
@@ -1169,7 +1196,7 @@ label tiramisu_intro:
     scene bg kitchen
     with longfade
     
-    "Glad they are letting me cook on some of the low staff days. Gets me away from all the pruny hands, and DISHES."
+    "Glad they are letting me cook on some of the low staff days. Gets me away from all the dishes, and pruny hands."
     
     show female at center
     
@@ -1214,7 +1241,10 @@ label tiramisu_intro:
     
     "my heart feels like it’s about to burst out of my chest, she has such pretty--"
     
-    "Wait, she wants me to come work for her? I can’t do that, that would mean I would have to (A-:leave this place.) (A+:put off school.)"
+    if schoolFlag == True:
+        "Wait, she wants me to come work for her? I can’t do that, that would mean I would have to put off school."
+    else:
+        "Wait, she wants me to come work for her? I can’t do that, that would mean I would have to leave this place."
     
     Morgan "I... I’m sorry but I can’t do that."
     
@@ -1236,7 +1266,7 @@ label tiramisu_intro:
     
     show tiramisu day at center
     
-    Diana "I have come here a number of times and the food always has a surprising elegance to it on certain days, and those must be days that you are the one in front of the stove."
+    Diana "I have come here a number of times and the food was much more elegant than others, and those must be days that you are the one in front of the stove."
     
     "she is, what do i do, I DON’T KNOOOW!"
     
@@ -1272,7 +1302,7 @@ label cook2_start:
 label cook2_food_1:
     "Caprese salad, elegant stack of basil, cheese, and tomato, and surprisingly little salad."
     menu:
-        "Prepare this?":
+        "Prepare this":
             jump cook2_good
         "Back to recipe list":
             jump cook2_start
@@ -1280,7 +1310,7 @@ label cook2_food_1:
 label cook2_food_2:
     "Spaghetti, it's a tomato sauce with ground beef over... spaghetti. Pretty standard for the restaurant."
     menu:
-        "Prepare this?":
+        "Prepare this":
             jump cook2_bad
         "Back to recipe list":
             jump cook2_start
@@ -1300,17 +1330,26 @@ label cook2_note_1:
 
 label cook2_good:
     scene bg kitchen
-    "First start with the balsamic reduction, that can stay out a bit after cooking. Take a cup of balsamic and a few tablespoons of sugar on medium just wait a bit for that to boil and reduce down."
-
-    "Need to take some fresh mozzarella, if it's not really high quality it really shows because it is the center focus of the dish, even though I plan on adding some side shrimps." 
-
-    "Cut it into equal portions, almost like large thick cheese coins. Then slice up the tomato." 
-
+        
+    "First we make a balsamic reduction, take a cup of balsamic vinegar and a little sugar in a pot, then boil down."
+    
+    "Then take some fresh mozzarella. High quality mozz’ of course, if not it really shows, cause it is the center focus of the dish."
+    
+    "Cut the cheese and some tomato into equal portions, almost like thick coins. Then, grab some of that green, basil leaves."
+    
     "Now we assemble it into two lines, alternating between tomato, mozzarella, and basil, until it goes nearly from one side of the plate to the other."
+    
+    "Now that I think about it, I could pair this really well with some shrimp. These pink little chubs just need something that ties them with the salad."
+    
+    "I toss in some basil and garlic as the shrimp is being fried up."
+    
+    "Now to plate it."
+    
+    "She’d like it if I keep everything neat. I’ll line them up, salad on the side and shrimp in the middle."
+    
+    "A caprese salad, capeesh!"
 
-    "Now that I think about it I could pair this really well with some shrimp, just need something that ties them together, basil. I can finely dice up some basil and garlic to put with the shrimp in some olive oil." 
-
-    "Just a bit on each side should do nicely, just need to make sure that it’s not overcooked or it’ll turn out tough. She’d like it if I keep everything neat so I’ll line them up in the middle, and order up!"
+    "Order up!"
 
     scene bg resttables
     with fade
@@ -1355,16 +1394,18 @@ label cook2_good:
 label cook2_bad:
     scene bg kitchen
     "First we need to brown up some meat, crank up that pan up."
-
-    "While thats going start with some spaghetti noodles into a pot with water and a dash of salt. And by that time the sauce is done."
-
-    "Now that that its on its way to brown town gotta put in a few tablespoons of diced onion and a clove of garlic then let that go for a while longer."
-
-    "Now that it's ready I can put in the sauce, just need to take dad’s homemade sauce which has the three levels of tomato, diced, puree, and crushed, with various herbs and spices."
-
-    "It's mostly oregano and basil with some other stuff that he really likes in there. Probably more garlic."
-
-    "Heat it up with the meat and pour that delicious sludge over the pasta. Order up!"
+    
+    "While that's going, gotta start some spaghetti noodles."
+    
+    "Now that it’s on its way to brown town, gotta put in a some onion and garlic, then let that go for a while longer."
+    
+    "The meat is ready now, just need to take dad’s homemade special sauce which has all three levels of tomato, diced, pureed, and crushed, with various herbs and spices mixed in."
+    
+    "It's mostly oregano and basil, with some other stuff that he really likes in there honestly. Probably more garlic."
+    
+    "Heat it up with the meat, and pour that delicious sludge over the pasta."
+    
+    "Order up!"
 
     scene bg resttables
     with fade
@@ -1379,11 +1420,13 @@ label cook2_bad:
     
     Morgan "Yes. At least to my knowledge."
     
-    Diana "I would like to talk to you manager."
+    Diana "Uh alright, I would like to talk to your manager."
     
     Morgan "I don’t think dad’s in, but I can grab Rob for you?"
+
+    "She gives a slight sigh, looking kinda impatient, but it’s not like I’m lying about it."
     
-    Diana "That will be fine."
+    Diana "Sure whatever you need to do."
     
     hide tiramisu food
     
@@ -1421,7 +1464,7 @@ label lasagna_intro_2:
     with longfade
     #coffee shop 
 
-    Morgan "I’ve been here a couple times before morning shifts. I usually just grab whatever’s written biggest on the board super quick and less than fully awake. It’s really close to work, always a plus. Now also on the way to campus."
+    Morgan "I’ve been here a couple times before the morning shifts. I usually just grab whatever’s written biggest on the board super quick, when I'm less than fully awake. It’s really close to work, always a plus.  Now it's also on the way to campus."
 
     show lasagna work at center
     play music aria fadeout 1
@@ -1475,7 +1518,7 @@ label lasagna_intro_2:
     
     Nick "Do not insult sister. She is good beautiful girl."
     
-    Morgan "Meat. Were you, hitting, on MY SISTER?!"
+    Morgan "Meat. Were you. Hitting. On MY SISTER!?"
     
     show sausage day confused at center
     
@@ -1492,7 +1535,7 @@ label lasagna_intro_2:
     
     Nick "I have no violent intentions!"
     
-    Aria "I will throw you two out! This is not some kind of boxing ring, this is a coffee shop. Now you two calm down or take it outside, do I make myself clear?"
+    Aria "I will throw you two out! This isn’t some kind of boxing ring, this is a coffee shop. Now you two calm down or take it outside, do I make myself clear?"
     
     show sausage day at right
     Nick "Yes, I am very calm. Always calm."
@@ -1512,7 +1555,7 @@ label lasagna_intro_2:
     
     Morgan "I guess I’m sorry. I didn’t mean to cause an issue. Sorry for yelling. We’ll be going once my order’s out."
     
-    Aria "Ok. You can stay if you want, just don’t both the other guests anymore than you have."
+    Aria "Ok. You can stay if you want, just don't bother the other guests any more."
     
     #Morgan (V.O.): 
     "But, there’s no one else here..."
@@ -1532,13 +1575,22 @@ label lasagna_intro_2:
     show sausage day surprised at right
     Nick "She is at your place of work all the time. She is sing lady. You must at least remember her voice."
     
-    Morgan "Well I hear her voice all the time, she works here, and I come here all the time. Though, come to think of it... are you the girl who was singing karaoke across the street last night?"
+    Morgan "Well I hear her voice all the time, she works here, and I come here all the time. Though, come to think of it..."
+
+    Aria "That is an interesting way to say I’m familiar."
+    
+    "She then gives an awkward smile and a blush starts to appear on her face and then it clicks."
+
+    Morgan "are you the girl who was singing karaoke across the street last night?"
+    
+    "Her smile falls, and she looks like someone had burnt their food and they can’t make anymore."
     
     Aria "..."
+
     Aria "Listen here you-  How do you two know about that?"
                                                              
     #Morgan (V.O.):
-    "Should I not of said anything. Fuck, I totally shouldn’t of said anything. She is pissed."
+    "Should I not have said anything. Fuck, I totally shouldn’t of said anything. She is pissed."
     
     Morgan "Well, uh I work there and he... eats there a lot, he also just eats a lot in general. Why, whats wrong?"
     
@@ -1579,7 +1631,7 @@ label tso_intro:
     
     "I can’t believe that girl. Try to be nice and you get the door?"
     
-    "Just really met someone and they are mad at me and whatever. This is the worst feeling! Ugh."
+    "Just really met someone and they are mad at me or whatever. This is the worst feeling! Ugh."
     
     "It was so disorientating."
     
@@ -1737,7 +1789,9 @@ label school4_done:
     
     "No, no time. Maybe a novelty gift?"
     
-    "One that says, “I’m sorry I thought you were a fourteen year-old boy, and am now imagine you as a bowl of basically the chinese equivalent of buffalo wings! But hey, that’s in the past.” Like a puppy. "
+    "One that says, “I’m sorry I thought you were a fourteen year-old boy, and am now am now imagining you as a bowl of basically the Chinese equivalent of buffalo wings! But hey, that’s in the past.”"
+
+    "Like a puppy."
     
     "No, that is not what puppies say. Maybe there’s something in the language of flowers for this..."
     

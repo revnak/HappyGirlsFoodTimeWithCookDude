@@ -1,25 +1,27 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 1034, in script
-    $ succFlag = Flase
-  File "game/script.rpy", line 1034, in <module>
-    $ succFlag = Flase
-NameError: name 'Flase' is not defined
+  File "game/script.rpy", line 1217, in script
+    if schoolFlag == true:
+  File "game/script.rpy", line 1217, in <module>
+    if schoolFlag == true:
+NameError: name 'true' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 1034, in script
-    $ succFlag = Flase
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ast.py", line 827, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\python.py", line 1764, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/script.rpy", line 1034, in <module>
-    $ succFlag = Flase
-NameError: name 'Flase' is not defined
+  File "game/script.rpy", line 1217, in script
+    if schoolFlag == true:
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\ast.py", line 1681, in execute
+    if renpy.python.py_eval(condition):
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\python.py", line 1794, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "G:\Ren'Py\renpy-6.99.13-sdk\renpy\python.py", line 1788, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 1217, in <module>
+    if schoolFlag == true:
+NameError: name 'true' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 6.99.13.2919
-Full Course 1.0
+Full Course 0.5
